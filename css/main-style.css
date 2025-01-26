@@ -409,10 +409,122 @@ margin-top: -10px;
   .feature {
     width: calc(50% - 20px); /* Adjust to fit 2 items per row */
   }
+  .features h2 {
+    font-size: 1.7rem;
+  }
 }
 
 @media (max-width: 480px) {
   .feature {
     width: calc(100% - 20px); /* Adjust to fit 1 item per row */
+  }
+}
+/* Stats Section */
+.stats-section {
+  background-color: rgb(11, 11, 11); /* Dark theme */
+  color: #ffffff;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.stats-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.stats-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  position: relative;
+  width: 250px;
+  height: 300px;
+  background-color: #161616;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
+}
+
+.card img {
+  position: absolute;
+  bottom: -100%; /* Hidden initially */
+  left: 25%;
+  /* width: 50%;
+  height: 50%; */
+  object-fit: cover;
+  transition: bottom 0.4s ease-in-out;
+  align-items: center;
+
+}
+
+.card:hover img {
+  bottom: 0; /* Slide up on hover */
+}
+
+.card-content {
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.4s ease-in-out;
+}
+
+.card:hover .card-content {
+  transform: translateY(-30px); /* Move text slightly up */
+}
+
+.card-content h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.card-content p {
+  font-size: 1rem;
+  font-weight: normal;
+  color: gray;
+}
+.stats-para{
+  margin-bottom: 30px;
+   margin-top: -30px;
+    color: rgb(153, 153, 153);
+}
+@media (max-width: 768px) {
+  .stats-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%; /* Full-width for smaller devices */
+    height: 300px;
+  }
+  .card img {
+    width: 50%;
+    height: 60%;
+  }
+  .stats-para{
+    margin-bottom: 53px;
+    margin-top: -10px;
+    font-size: 1rem;
+  }
+  .stats-section h2 {
+    font-size: 1.7rem;
   }
 }
