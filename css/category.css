@@ -1,0 +1,376 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fefefe; 
+  color: rgb(11, 11, 11);
+}
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.logo a {
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(7, 7, 7);
+  text-decoration: none;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  min-width: 480px;
+  gap: 20px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  position: relative;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: rgb(10, 10, 10);
+  font-size: 16px;
+  transition: color 0.3s;
+}
+@media(max-width: 768px){
+  .nav-links a{
+    color: white;
+  }
+}
+.nav-links a::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #ffdd40;
+  transition: width 0.3s, left 0.3s;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 10px;
+}
+.auth-buttons .login-btn a{
+  text-decoration: none;
+  padding: 8px 8px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  background-color: #000000;
+  color: #ffffff;
+  transition: transform 0.3s ease  , background-color 0.3s ease;
+  
+}
+.auth-buttons .signup-btn a{
+  text-decoration: none;
+  color: black;
+  padding: 8px 8px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  background-color: #40fff5;
+  color: #212529;
+  transition: transform 0.3s ease  , background-color 0.3s ease;
+}
+.auth-buttons .login-btn ,
+.auth-buttons .signup-btn {
+  padding: 8px 8px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.auth-buttons .login-btn {
+  background-color: #000000;
+  color: #ffffff;
+  transition: transform 0.3s ease  , background-color 0.3s ease;
+
+}
+
+.auth-buttons .login-btn:hover {
+  background-color: rgb(0, 0, 0);
+  transform: translateY(-3px);
+
+}
+
+.auth-buttons .signup-btn {
+  background-color: #40fff5;
+  color: #212529;
+  transition: transform 0.3s ease  , background-color 0.3s ease;
+}
+
+.auth-buttons .signup-btn:hover {
+  background-color: #7eebe6;
+  transform: translateY(-3px);
+}
+
+/* Hamburger Menu */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background-color: rgb(0, 0, 0);
+  transition: background-color 0.3s ease;
+
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ffffff; /* Default background (dark) */
+  color: rgb(0, 0, 0); /* Default text color */
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar.scrolled {
+  background-color: rgb(0, 0, 0); /* Background color after scrolling */
+  color: rgb(255, 255, 255); /* Text color after scrolling */
+  /* box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); */
+}
+/* Logo Default Styles */
+.logo a {
+  font-size: 24px; 
+  color: rgb(0, 0, 0); 
+  text-decoration: none;
+  transition: font-size 0.3s, color 0.3s; 
+}
+
+/* Logo Styles When Scrolled */
+.navbar.scrolled .logo a {
+  color: rgb(255, 255, 255); /* Change color when scrolled */
+}
+
+.logo-scrolled {
+  font-size: 20px; /* Shrink logo size */
+  font-weight: 500; /* Reduce weight */
+}
+.hamburger.scrolled {
+  background-color: white; /* Background changes to white */
+}
+
+.hamburger.scrolled span {
+  background-color: black; 
+}
+
+
+.navbar.scrolled .nav-links  a {
+  color: rgb(255, 255, 255);
+}
+
+.navbar.scrolled .auth-buttons .login-btn  {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+.navbar.scrolled .auth-buttons .login-btn a  {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+.navbar.scrolled .auth-buttons .signup-btn {
+  background-color: #40fff5;
+  color: #212529;
+}
+ .logo  img{
+  width: 40px;
+  height: 40px;
+  margin-bottom: 0px;
+ }
+ .logo a{
+    margin-left: 5px;
+ }
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 59px;
+    right: 0px;
+    background-color: #000000;
+    border-radius: 5px;
+    padding: 10px;
+    width: 150px;
+    color: rgb(255, 255, 255);
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .auth-buttons {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+}
+.search-section {
+  margin-left: 20px;
+  margin-top: 100px;
+}
+.search-section h1{
+  font-size: 1rem;
+  margin-bottom: 5px;
+  color: rgb(87, 87, 87);
+}
+
+.search-section input {
+  padding: 10px;
+  width: 80%;
+  max-width: 500px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+
+/* Categories Section */
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.category-card {
+  width: 400px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s, border 0.3s;
+  margin: 20px 0;
+}
+
+.category-card:hover {
+  transform: translateY(-5px);
+  border: 1px solid black;
+}
+
+.category-card h2 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.category-card p {
+  color: #555;
+}
+/* Explore Category Button */
+.explore-btn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: #555555;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.explore-btn:hover {
+  background-color: transparent;
+  transform: scale(1.05);
+  background-color: #000000; /* Slightly darker color */
+  color: rgb(208, 205, 205);
+}
+
+.category-card {
+  position: relative;
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.heading{
+  align-items: center;
+  text-align: center;
+}
+.heading h1{
+  font-size: 2.5rem;
+  margin-top: 50px;
+}
+.heading p{
+  color: gray;
+  margin-top: 10px;
+}
+@media (max-width:768px){
+  .heading h1{
+    font-size: 1.7rem;
+  }
+ 
+}
+
+.subcategories {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.subcategory {
+  background: #f0f0f0;
+  color: #333;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.subcategory:hover {
+  color: #737171;
+}

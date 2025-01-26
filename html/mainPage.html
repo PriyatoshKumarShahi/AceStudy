@@ -3,9 +3,152 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Categories - AceStudy</title>
+  <link rel="stylesheet" href="/css/category.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+  <nav class="navbar">
+    <div class="logo">
+      <img src="/assets/logo.png" alt="">
+      <a  href="index.html">AceStudy</a>
+    </div>
+    <div class="nav-right">
+      <ul class="nav-links">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/html/mainPage.html">Class 11</a></li>
+        <li><a href="/html/mainPage.html">Class 12</a></li>
+        <li><a href="/html/mainPage.html">NCERT eBooks</a></li>
+        <li><a href="/html/mainPage.html">B.Tech</a></li>
+      </ul>
+      <div class="auth-buttons">
+        <button  class="login-btn"><a href="/html/login.html">Sign in</a></button>
+        <button class="signup-btn"><a   href="/html/register.html">Sign up</a></button>
+      </div>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+
+  <section class="search-section">
+    <h1>Filter Your Choice</h1>
+    <input type="text" id="searchInput" placeholder="Search by keyword (e.g., JEE, NEET, Class 12)...">
+  </section>
+  <div class="heading">
+    <h1>Exam Categories</h1>
+    <p>AceStudy is preparing students for 15+ exam categories. Scroll down to find the one you are preparing for.</p>
+  </div>
+  <section class="categories">
+    <div class="category-card" data-category="jee">
+      <h2>IIT JEE</h2>
+      <div class="subcategories">
+        <span class="subcategory">Class 11</span>
+        <span class="subcategory">Class 12</span>
+        <span class="subcategory">Dropper</span>
+      </div>
+      <p>Notes, PYQs, and more for JEE aspirants.</p>
+      <button class="explore-btn">Explore Category <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+    <div class="category-card" data-category="neet">
+      <h2>NEET</h2>
+      <div class="subcategories">
+        <span class="subcategory">Class 11</span>
+        <span class="subcategory">Class 12</span>
+        <span class="subcategory">Dropper</span>
+      </div>
+      <p>Comprehensive resources for NEET preparation.</p>
+      <button class="explore-btn">Explore Category <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
   
+    <!-- IIT JEE Category -->
+   
+  
+    <!-- UPSC Category -->
+    <div class="category-card" data-category="upsc">
+      <h2>UPSC</h2>
+      <div class="subcategories">
+        <span class="subcategory">Prelims</span>
+        <span class="subcategory">Mains</span>
+        <span class="subcategory">Interview</span>
+      </div>
+      <p>Tailored notes and practice papers for UPSC preparation.</p>
+      <button class="explore-btn">Explore Category <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+    <div class="category-card" data-category="nda">
+      <h2>NDA</h2>
+      <div class="subcategories">
+
+     
+      <span class="subcategory">Maths</span>
+      <span class="subcategory">English</span>
+      <span class="subcategory">General Ability</span>
+    </div>
+      <p>Crack NDA with tailored notes and papers.</p>
+      <button class="explore-btn">Explore Category <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+    <div class="category-card" data-category="class12">
+      <h2>Class 12</h2>
+      <div class="subcategories" >
+        <span class="subcategory">Maths</span>
+        <span class="subcategory">Chemistry</span>
+        <span class="subcategory">Physics</span>
+        <span class="subcategory">Biology</span>
+        <span class="subcategory">Humanities</span>
+      </div>
+      <p >All notes and solutions for Class 12 students.</p>
+      <button class="explore-btn">Explore Category <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+    <div class="category-card" data-category="class11">
+      <h2>Class 11</h2>
+      <div class="subcategories">
+        <span class="subcategory">Maths</span>
+        <span class="subcategory">Chemistry</span>
+        <span class="subcategory">Physics</span>
+        <span class="subcategory">Biology</span>
+        <span class="subcategory">Humanities</span>
+      </div>
+      <p>Essential resources for Class 11 subjects.</p>
+      <button class="explore-btn">Explore Category <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+  
+  
+    <div class="category-card" data-category="gate">
+      <h2>GATE</h2>
+      <p>Prepare for GATE with specialized resources and papers.</p>
+      <button class="explore-btn">Explore Category <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+    <div class="category-card" data-category="cat">
+      <h2>CAT</h2>
+      <p>Master MBA entrance with expert notes and mock tests.</p>
+      <button class="explore-btn">Explore Category <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+    <div class="category-card" data-category="cuet">
+      <h2>CUET</h2>
+      <p>Comprehensive resources for the CUET exam preparation.</p>
+      <button class="explore-btn">Explore Category <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+    <div class="category-card" data-category="cds">
+      <h2>CDS</h2>
+      <p>Prepare for CDS with top-notch notes and mock papers.</p>
+      <button class="explore-btn">Explore Category <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+    <div class="category-card" data-category="afcat">
+      <h2>AFCAT</h2>
+      <p>Detailed materials to ace the Air Force Common Admission Test.</p>
+      <button class="explore-btn">Explore Category <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+    <div class="category-card" data-category="ssc">
+      <h2>SSC </h2>
+      <p>Prepare for SSC with tailored study notes, PYQs, and mock tests.</p>
+      <button class="explore-btn">Explore Category <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+  </section>
+  
+  
+  <script src="/js/category.js"></script>
 </body>
 </html>
