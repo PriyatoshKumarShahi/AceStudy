@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Study Website</title>
+  <link rel="stylesheet" href="./css/main-style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="/assets/logo.png" alt="">
+        <a  href="index.html">AceStudy</a>
+      </div>
+      <div class="nav-right">
+        <ul class="nav-links">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/html/mainPage.html">Class 11</a></li>
+          <li><a href="/html/mainPage.html">Class 12</a></li>
+          <li><a href="/html/mainPage.html">NCERT eBooks</a></li>
+          <li><a href="/html/mainPage.html">B.Tech</a></li>
+        </ul>
+        <div class="auth-buttons">
+          <button  class="login-btn"><a href="/html/login.html">Sign in</a></button>
+          <button class="signup-btn"><a   href="/html/register.html">Sign up</a></button>
+        </div>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Welcome to <span id="dynamic-text"></span></h1>
+      <h2 style="margin-bottom: 5px;">Your one-stop solution for acing exams and building knowledge!</h2>
+
+      <p>Unlock the best study resources, notes, and tutorials tailored for your success!</p>
+      <a href="/html/register.html" class="btn">Get Started</a>
+    </div>
+    <div class="hero-img">
+      <img src="/assets/home-img.png" alt="">
+
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="border-top"></div>
+    <h2>Why Choose AceStudy?</h2>
+    <div class="feature-items">
+      <div class="feature">
+       <img src="/assets/notes-icon.webp" alt="">        <h3>Expert-Curated Notes</h3>
+        <p>High-quality notes for Class 11, 12, and B.Tech, designed by top educators.</p>
+      </div>
+      <div class="feature">
+        <i class="fa-solid fa-book-open"></i>
+                <h3>NCERT eBooks</h3>
+        <p>Access free NCERT textbooks anytime, anywhere.</p>
+      </div>
+      <div class="feature">
+        <i  class="fa-solid fa-video"></i>
+                <h3>Best Video Tutorials</h3>
+        <p>Learn from the best teachers through engaging YouTube videos.</p>
+      </div>
+      <div class="feature">
+        <img src="/assets/pyq-icon.png" alt="PYQs">
+        <h3>Previous Year Questions</h3>
+        <p>Boost your exam preparation with past papers and solutions.</p>
+      </div>
+    </div>
+  </section>
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="./js/main-scrypt.js"></script>
+</body>
+</html>

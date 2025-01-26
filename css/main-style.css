@@ -1,0 +1,418 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fefefe; 
+  color: rgb(11, 11, 11);
+}
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.logo a {
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(7, 7, 7);
+  text-decoration: none;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  min-width: 480px;
+  gap: 20px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  position: relative;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: rgb(10, 10, 10);
+  font-size: 16px;
+  transition: color 0.3s;
+}
+@media(max-width: 768px){
+  .nav-links a{
+    color: white;
+  }
+}
+.nav-links a::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #ffdd40;
+  transition: width 0.3s, left 0.3s;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 10px;
+}
+.auth-buttons .login-btn a{
+  text-decoration: none;
+  padding: 8px 8px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  background-color: #000000;
+  color: #ffffff;
+  transition: transform 0.3s ease  , background-color 0.3s ease;
+  
+}
+.auth-buttons .signup-btn a{
+  text-decoration: none;
+  color: black;
+  padding: 8px 8px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  background-color: #40fff5;
+  color: #212529;
+  transition: transform 0.3s ease  , background-color 0.3s ease;
+}
+.auth-buttons .login-btn ,
+.auth-buttons .signup-btn {
+  padding: 8px 8px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.auth-buttons .login-btn {
+  background-color: #000000;
+  color: #ffffff;
+  transition: transform 0.3s ease  , background-color 0.3s ease;
+
+}
+
+.auth-buttons .login-btn:hover {
+  background-color: rgb(0, 0, 0);
+  transform: translateY(-3px);
+
+}
+
+.auth-buttons .signup-btn {
+  background-color: #40fff5;
+  color: #212529;
+  transition: transform 0.3s ease  , background-color 0.3s ease;
+}
+
+.auth-buttons .signup-btn:hover {
+  background-color: #7eebe6;
+  transform: translateY(-3px);
+}
+
+/* Hamburger Menu */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background-color: rgb(0, 0, 0);
+  transition: background-color 0.3s ease;
+
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ffffff; /* Default background (dark) */
+  color: rgb(0, 0, 0); /* Default text color */
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar.scrolled {
+  background-color: rgb(0, 0, 0); /* Background color after scrolling */
+  color: rgb(255, 255, 255); /* Text color after scrolling */
+  /* box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); */
+}
+/* Logo Default Styles */
+.logo a {
+  font-size: 24px; 
+  color: rgb(0, 0, 0); 
+  text-decoration: none;
+  transition: font-size 0.3s, color 0.3s; 
+}
+
+/* Logo Styles When Scrolled */
+.navbar.scrolled .logo a {
+  color: rgb(255, 255, 255); /* Change color when scrolled */
+}
+
+.logo-scrolled {
+  font-size: 20px; /* Shrink logo size */
+  font-weight: 500; /* Reduce weight */
+}
+.hamburger.scrolled {
+  background-color: white; /* Background changes to white */
+}
+
+.hamburger.scrolled span {
+  background-color: black; 
+}
+
+
+.navbar.scrolled .nav-links  a {
+  color: rgb(255, 255, 255);
+}
+
+.navbar.scrolled .auth-buttons .login-btn  {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+.navbar.scrolled .auth-buttons .login-btn a  {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+.navbar.scrolled .auth-buttons .signup-btn {
+  background-color: #40fff5;
+  color: #212529;
+}
+ .logo  img{
+  width: 40px;
+  height: 40px;
+  margin-bottom: 0px;
+ }
+ .logo a{
+    margin-left: 5px;
+ }
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 59px;
+    right: 0px;
+    background-color: #000000;
+    border-radius: 5px;
+    padding: 10px;
+    width: 150px;
+    color: rgb(255, 255, 255);
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .auth-buttons {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+}
+/* Hero Section Styles */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 30px 20px;
+  height: 100vh; /* Full viewport height */
+  /* background: linear-gradient(to bottom, #212529, #343a40); */
+  background-color: rgb(11, 11, 11);
+  color: rgb(246, 244, 244);
+  position: relative;
+}
+.hero .hero-img img{
+  height: 500px;
+  width: 500px;
+}
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  line-height: 1.2;
+  font-weight: bold;
+}
+
+.hero h1 span {
+  color: rgb(115, 115, 216); 
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #f7f3f3;
+}
+
+.hero .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #141515;
+  background-color: #40efff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.hero .btn:hover {
+  background-color: #65f0fd;
+  color: #0e0e0e;
+  transform: translateY(-3px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero{
+    flex-direction: column;
+  }
+  .hero .hero-img img{
+    height:400px;
+    width: 400px;
+  }
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1.1rem;
+  }
+
+  .hero .btn {
+    font-size: 0.9rem;
+    padding: 8px 15px;
+  }
+  .hero-content{
+    margin-top: 100px;
+
+
+  }
+}
+
+
+/* Features Section - Dark Theme */
+.features {
+  background-color: rgb(11, 11, 11);
+  color: #f5f5f5; /* Light text color */
+  padding: 60px 20px;
+  text-align: center;
+}
+.border-top {
+  width: 80vw; /* Border spans 80% of the page width */
+  height: 2px; /* Thickness of the border */
+  background-color: #3b3b3b; /* Border color */
+  margin: -20px auto 50px auto; /* Center the border within the container */
+}
+
+.features h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #5081ec; /* Highlighted title color */
+}
+
+.feature-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.feature {
+  background-color: #2d2c2c; /* Slightly lighter dark card background */
+  border-radius: 10px;
+  padding: 20px;
+  width: calc(25% - 20px); /* Flexible width for responsiveness */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+.feature i {
+font-size: 25px;
+  margin-bottom: 25px;
+}
+.feature img {
+width: 50px;
+height: 50px;
+margin-top: -10px;
+}
+
+.feature h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #f7b733; /* Accent color for headings */
+}
+
+.feature p {
+  font-size: 1rem;
+  color: #dcdde1;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .feature {
+    width: calc(33.33% - 20px); /* Adjust to fit 3 items per row */
+  }
+}
+
+@media (max-width: 768px) {
+  .feature {
+    width: calc(50% - 20px); /* Adjust to fit 2 items per row */
+  }
+}
+
+@media (max-width: 480px) {
+  .feature {
+    width: calc(100% - 20px); /* Adjust to fit 1 item per row */
+  }
+}
