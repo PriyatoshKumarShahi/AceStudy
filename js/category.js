@@ -28,11 +28,10 @@ searchInput.addEventListener('input', () => {
     }
   });
 });
-
 categoryCards.forEach((card) => {
   card.addEventListener('click', () => {
     const category = card.getAttribute('data-category');
-    window.location.href = `/${category}-page.html`; // Redirect to the corresponding page
+    window.location.href = `/${category}-page.html`; 
   });
 });
 // Get all the "Explore Category" buttons
