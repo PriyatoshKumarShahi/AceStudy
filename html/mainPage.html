@@ -6,6 +6,8 @@
   <title>Categories - AceStudy</title>
   <link rel="stylesheet" href="/css/category.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 <body>
   <div class="wrapper">
@@ -45,7 +47,7 @@
     <p>AceStudy is preparing students for 15+ exam categories. Scroll down to find the one you are preparing for.</p>
   </div>
   <section class="categories">
-    <div class="category-card" data-category="jee">
+    <div class="category-card" data-category="jee"data-aos="fade-up">
       <h2>IIT JEE</h2>
       <div class="subcategories">
         <span class="subcategory">Class 11</span>
@@ -55,7 +57,7 @@
       <p>Notes, PYQs, and more for JEE aspirants.</p>
       <button class="explore-btn">Explore Category <i class="fa-solid fa-arrow-right"></i></button>
     </div>
-    <div class="category-card" data-category="neet">
+    <div class="category-card" data-category="neet" data-aos="fade-up" data-aos-delay="200">
       <h2>NEET</h2>
       <div class="subcategories">
         <span class="subcategory">Class 11</span>
@@ -70,7 +72,7 @@
    
   
     <!-- UPSC Category -->
-    <div class="category-card" data-category="upsc">
+    <div class="category-card" data-category="upsc" data-aos="fade-up" data-aos-delay="300">
       <h2>UPSC</h2>
       <div class="subcategories">
         <span class="subcategory">Prelims</span>
@@ -80,7 +82,7 @@
       <p>Tailored notes and practice papers for UPSC preparation.</p>
       <button class="explore-btn">Explore Category <i class="fa-solid fa-arrow-right"></i></button>
     </div>
-    <div class="category-card" data-category="nda">
+    <div class="category-card" data-category="nda" data-aos="fade-up" data-aos-delay="200">
       <h2>NDA</h2>
       <div class="subcategories">
 
@@ -92,7 +94,7 @@
       <p>Crack NDA with tailored notes and papers.</p>
       <button class="explore-btn">Explore Category <i class="fa-solid fa-arrow-right"></i></button>
     </div>
-    <div class="category-card" data-category="class12">
+    <div class="category-card" data-category="class12" data-aos="fade-up" data-aos-delay="300">
       <h2>Class 12</h2>
       <div class="subcategories" >
         <span class="subcategory">Maths</span>
@@ -103,7 +105,7 @@
       <p >All notes and solutions for Class 12 students.</p>
       <button class="explore-btn">Explore Category <i class="fa-solid fa-arrow-right"></i></button>
     </div>
-    <div class="category-card" data-category="class11">
+    <div class="category-card" data-category="class11" data-aos="fade-up" data-aos-delay="400">
       <h2>Class 11</h2>
       <div class="subcategories">
         <span class="subcategory">Maths</span>
@@ -116,32 +118,32 @@
     </div>
   
   
-    <div class="category-card" data-category="gate">
+    <div class="category-card" data-category="gate" data-aos="fade-up" data-aos-delay="200">
       <h2>GATE</h2>
       <p>Prepare for GATE with specialized resources and papers.</p>
       <button class="explore-btn">Explore Category <i class="fa-solid fa-arrow-right"></i></button>
     </div>
-    <div class="category-card" data-category="cat">
+    <div class="category-card" data-category="cat" data-aos="fade-up" data-aos-delay="300">
       <h2>CAT</h2>
       <p>Master MBA entrance with expert notes and mock tests.</p>
       <button class="explore-btn">Explore Category <i class="fa-solid fa-arrow-right"></i></button>
     </div>
-    <div class="category-card" data-category="cuet">
+    <div class="category-card" data-category="cuet" data-aos="fade-up" data-aos-delay="400">
       <h2>CUET</h2>
       <p>Comprehensive resources for the CUET exam preparation.</p>
       <button class="explore-btn">Explore Category <i class="fa-solid fa-arrow-right"></i></button>
     </div>
-    <div class="category-card" data-category="cds">
+    <div class="category-card" data-category="cds" data-aos="fade-up" data-aos-delay="200">
       <h2>CDS</h2>
       <p>Prepare for CDS with top-notch notes and mock papers.</p>
       <button class="explore-btn">Explore Category <i class="fa-solid fa-arrow-right"></i></button>
     </div>
-    <div class="category-card" data-category="afcat">
+    <div class="category-card" data-category="afcat" data-aos="fade-up" data-aos-delay="300">
       <h2>AFCAT</h2>
       <p>Detailed materials to ace the Air Force Common Admission Test.</p>
       <button class="explore-btn">Explore Category <i class="fa-solid fa-arrow-right"></i></button>
     </div>
-    <div class="category-card" data-category="ssc">
+    <div class="category-card" data-category="ssc" data-aos="fade-up" data-aos-delay="400">
       <h2>SSC </h2>
       <p>Prepare for SSC with tailored study notes, PYQs, and mock tests.</p>
       <button class="explore-btn">Explore Category <i class="fa-solid fa-arrow-right"></i></button>
@@ -155,5 +157,13 @@
   
   
   <script src="/js/category.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+  
+    AOS.init();
+    AOS.init({
+      offset: 230,
+    });
+  </script>
 </body>
 </html>

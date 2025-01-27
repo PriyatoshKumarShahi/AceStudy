@@ -30,4 +30,3 @@ new Typed('#dynamic-text', {
   backSpeed: 70,
   loop: true
 });
-

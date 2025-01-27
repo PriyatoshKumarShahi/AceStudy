@@ -4,11 +4,8 @@
   box-sizing: border-box;
 }
 
-body {
-
-}
 html, body {
-  height: 100%; /* Ensure the body stretches to the full height */
+  height: 110%; /* Ensure the body stretches to the full height */
   margin: 0;
   display: flex;
   flex-direction: column;
