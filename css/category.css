@@ -5,8 +5,22 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+
 }
+html, body {
+  height: 100%; /* Ensure the body stretches to the full height */
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  background-color: rgb(11, 11, 11);
+}
+.wrapper {
+  flex: 1; /* This ensures the content area takes up the remaining space */
+  display: flex;
+  flex-direction: column;
+}
+
 
 /* Navbar Styles */
 .navbar {
@@ -253,22 +267,79 @@ body {
   }
 }
 .search-section {
-  margin-left: 20px;
-  margin-top: 100px;
+  margin: 100px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
-.search-section h1{
-  font-size: 1rem;
-  margin-bottom: 5px;
-  color: rgb(87, 87, 87);
+
+.search-section h1 {
+  font-size: 1.3rem; /* Larger and more readable font size */
+  margin-bottom: 10px; /* Slightly more spacing for visual breathing room */
+  color: #c4c3c3; /* Softer dark gray for improved readability */
+  font-family: 'Arial', sans-serif; /* Clean font style */
+  text-transform: capitalize; /* Capitalize the title for consistency */
 }
 
 .search-section input {
-  padding: 10px;
-  width: 30%;
-  max-width: 310px;
-  border: 1px solid #000000;
-  border-radius: 5px;
+  padding: 10px; /* Slightly more padding for comfort */
+  width: 100%; /* Makes the input responsive */
+  max-width: 400px; /* Larger max-width for better usability */
+  border: 2px solid #aeacac; /* Subtle border */
+  border-radius: 8px; /* Smoother rounded edges */
+  outline: none; /* Remove default focus outline */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  font-size: 1rem; /* Clear and readable input text size */
+  transition: all 0.3s ease; /* Smooth transitions for interactions */
+  background-color: black;
+  color: #aaa;
 }
+
+.search-section input:focus {
+  border-color: #858687; /* Highlighted border on focus */
+  box-shadow: 0 6px 12px rgba(0, 123, 255, 0.2); /* Blue shadow for focus effect */
+}
+
+.search-section input::placeholder {
+  color: #aaa; /* Subtle placeholder color */
+  font-style: italic; /* Italicized placeholder text for a distinct style */
+}
+
+/* Optional: Add a search button next to the input field */
+.search-section button {
+  padding: 12px 20px;
+  margin-top: 10px; /* Space between the input and button */
+  background-color: #007BFF; /* Vibrant blue color */
+  color: white; /* White text */
+  border: none; /* Remove border */
+  border-radius: 8px; /* Rounded edges to match the input field */
+  cursor: pointer; /* Pointer cursor for interactivity */
+  font-size: 1rem;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.search-section button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  box-shadow: 0 6px 12px rgba(0, 91, 187, 0.3); /* Stronger shadow for hover effect */
+}
+
+@media (max-width: 768px) {
+  .search-section h1 {
+    font-size: 1.1rem; /* Slightly smaller font for smaller screens */
+  }
+
+  .search-section input {
+    width: 50%; /* Full width on smaller screens */
+    max-width: none; /* Remove max-width */
+    font-size: 0.8rem;
+  }
+
+  .search-section button {
+    width: 100%; /* Full width for the button too */
+  }
+}
+
 
 /* Categories Section */
 .categories {
@@ -283,7 +354,7 @@ body {
 .category-card {
   width: 400px;
   padding: 20px;
-  background-color: #fff;
+  background-color: rgb(11, 11, 11);
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   text-align: center;
@@ -294,7 +365,7 @@ body {
 
 .category-card:hover {
   transform: translateY(-5px);
-  border: 1px solid black;
+  border: 1px solid rgb(147, 146, 146);
 }
 
 .category-card h2 {
@@ -303,7 +374,7 @@ body {
 }
 
 .category-card p {
-  color: #555;
+  color: #878686;
 }
 /* Explore Category Button */
 .explore-btn {
@@ -321,7 +392,7 @@ body {
 .explore-btn:hover {
   background-color: transparent;
   transform: scale(1.05);
-  background-color: #000000; /* Slightly darker color */
+  background-color: #3f3f3f; /* Slightly darker color */
   color: rgb(208, 205, 205);
 }
 
@@ -329,10 +400,11 @@ body {
   position: relative;
   text-align: center;
   padding: 20px;
-  background-color: #fff;
+  background-color: rgb(11, 11, 11);
   border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px rgba(96, 96, 96, 0.1);
   transition: transform 0.3s, box-shadow 0.3s;
+  color: white;
 }
 .heading{
   align-items: center;
@@ -341,6 +413,7 @@ body {
 .heading h1{
   font-size: 2.5rem;
   margin-top: 50px;
+  color: white;
 }
 .heading p{
   color: gray;
@@ -362,8 +435,8 @@ body {
 }
 
 .subcategory {
-  background: #f0f0f0;
-  color: #333;
+  background: #171717;
+  color: #8a8a8a;
   padding: 5px 10px;
   border-radius: 20px;
   font-size: 0.85rem;
@@ -374,11 +447,10 @@ body {
 .subcategory:hover {
   color: #737171;
 }
-footer{
+footer {
   text-align: center;
   padding: 10px;
-  margin-top: 20px;
-  background-color:rgb(230, 230, 229);
-  color: rgb(141, 141, 141);
-
+  background-color: rgb(230, 230, 229);
+  color: rgb(95, 95, 95);
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
 }

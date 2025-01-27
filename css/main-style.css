@@ -7,6 +7,7 @@
 
 body {
   font-family: Arial, sans-serif;
+  background-color:rgb(11, 11, 11) ;
 }
 
 /* Navbar Styles */
@@ -349,6 +350,12 @@ body {
   background-color: #3b3b3b; /* Border color */
   margin: -20px auto 50px auto; /* Center the border within the container */
 }
+.border-bottom {
+  width: 80vw; /* Border spans 80% of the page width */
+  height: 2px; /* Thickness of the border */
+  background-color: #3b3b3b; /* Border color */
+  margin: -20px auto 50px auto; /* Center the border within the container */
+}
 
 .features h2 {
   font-size: 2.5rem;
@@ -528,3 +535,106 @@ margin-top: -10px;
     font-size: 1.7rem;
   }
 }
+footer{
+  text-align: center;
+  padding: 10px;
+  background-color:rgb(230, 230, 229);
+  color: rgb(71, 71, 71);
+
+}
+.secondSection{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(11, 11, 11);
+  color: white;
+  height: 80vh;
+
+
+
+}
+.secondSectionLeft{
+  max-width: 470px;
+
+}
+.secondSectionLeft span{
+ color: rgb(98, 98, 244);
+
+}
+.secondSectionLeft h1{
+ font-size: 2.9rem;
+}
+.secondSectionLeft p{
+ font-size: 1rem;
+ margin-top: 10px;
+ color: gray;
+}
+.secondSectionRight{
+  max-width: 470px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+}
+.secondSectionRight h2 {
+  font-size: 2rem;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.secondSectionRight ul {
+  list-style: none;
+  padding: 0;
+}
+
+.secondSectionRight ul li {
+  font-size: 1.2rem;
+  color: #d3d3d3;
+  margin-bottom: 0.8rem;
+}
+
+.secondSectionRight ul li strong {
+  color: #f0c040;
+}
+
+.secondSectionRight .cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #f0c040;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s , transform 0.3s ease;
+}
+.cta-button a{
+  text-decoration: none;
+  color: black;
+}
+
+.secondSectionRight .cta-button:hover {
+  background-color: #ffaa00;
+  transform: translateY(-5px);
+}
+@media(max-width:768px){
+  .secondSection{
+    flex-direction: column;
+  }
+  .secondSectionLeft{
+    margin-top: 30px;
+    max-width: 76%;
+  }
+  .secondSectionLeft h1{
+   font-size: 2rem;
+  }
+  .secondSectionRight{
+    margin-top: 30px;
+    max-width: 72%;
+  }
+  .secondSectionRight h2 {
+   font-size: 1.7rem;
+  }
+}
+
