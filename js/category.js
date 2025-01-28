@@ -31,7 +31,7 @@ searchInput.addEventListener('input', () => {
 categoryCards.forEach((card) => {
   card.addEventListener('click', () => {
     const category = card.getAttribute('data-category');
-    window.location.href = `/${category}-page.html`; 
+    window.location.href = `/html/categories/${category}-page.html`; 
   });
 });
 // Get all the "Explore Category" buttons
@@ -48,7 +48,7 @@ exploreButtons.forEach((button) => {
     const category = card.getAttribute('data-category');
 
     // Redirect to the category page
-    window.location.href = `/${category}-page.html`;
+    window.location.href = `/html/categories/${category}-page.html`;
   });
 });
 const navbar = document.querySelector('.navbar');
