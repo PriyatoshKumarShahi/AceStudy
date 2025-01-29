@@ -491,10 +491,157 @@ footer {
   }
 }
 
+#pyqs-section {
+  padding: 20px;
+  /* margin-top: 100px; */
+  background-color: rgb(11, 11, 11);
+  color: white;
+  height: 80vh;
+}
+
+/* Styling for the tabs */
+.tabs {
+  display: flex;
+  justify-content: space-between; /* Spread items across the row */
+  margin-bottom: 20px;
+  max-width: 90%;
+  /* padding: 0 10px; */
+}
+
+.tab-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  background-color: #ffffff;
+  transition: all 0.3s ease;
+}
+
+.tab-btn:hover {
+  background-color: #000000;
+  color: white;
+}
+
+.tab-btn.active {
+  background-color: #070707;
+  color: rgb(255, 255, 255);
+}
+
+/* Aligning specific buttons */
+.tab-btn.left {
+  align-self: flex-start;
+  margin-left: 32px;
+}
+
+.tab-btn.center {
+  margin: 0 auto;
+  margin-left: 510px;
+
+}
+
+.tab-btn.right {
+  align-self: flex-end;
+  margin-right: 40px;
+}
+
+/* Notes content styling */
+.pyqs-content {
+  display: flex;
+  justify-content: center; /* Default alignment to center */
+  margin-top: 20px;
+  transition: all 0.3s ease; /* Smooth transition for alignment */
+}
+
+.pyqs-content.align-left {
+  justify-content: flex-start;
+}
+
+.pyqs-content.align-center {
+  justify-content: center;
+}
+
+.pyqs-content.align-right {
+  justify-content: flex-end;
+}
+
+.pyqs-list {
+  display: none;
+  width: 26%; /* Adjust content width */
+  text-align: left;
+  animation: fade-in 0.3s ease-in-out; /* Animation when content appears */
+  margin-top: -20px;
+
+}
+
+.pyqs-list.active {
+  display: block;
+}
+
+.pyqs-list h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.pyqs-list ul {
+  list-style-type: none;
+  padding: 0;
+  align-items: start;
+}
+
+.pyqs-list ul li {
+  margin-bottom: 10px;
+}
+
+.pyqs-list ul li a {
+  text-decoration: none;
+  color: #d0d0d0;
+  /* font-weight: bold; */
+  transition: text-decoration 0.3s ease;
+}
+.pyqs-list ul li a i {
+  color: rgb(140, 140, 243);
+  
+}
+
+.pyqs-list ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Animation */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
 
-
-
+@media(max-width:768px){
+  #pyqs-section{
+    display: flex;
+    flex-direction: column;
+  }
+  .pyqs-content{
+    flex-direction: column;
+  }
+}
+#math-pyqs{
+  position: absolute;
+  left: 75vw;
+}
+#chemistry-pyqs{
+  position: absolute;
+  left: 10;
+}
+#physics-pyqs{
+  position: absolute;
+  left: 36vw;
+}
 
 
 
