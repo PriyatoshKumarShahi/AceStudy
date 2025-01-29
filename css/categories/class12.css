@@ -1,10 +1,15 @@
 /* General Styles */
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f8f9fa;
+  background-color: white;
   color: #333;
+  overflow-x: hidden;
+  width: 100%;
+
+
 }
 
 header {
@@ -255,7 +260,8 @@ header {
 
   .hamburger {
     display: flex;
-    margin-right: 28px;
+    margin-left: 670px;
+  
   }
 }
 
@@ -278,19 +284,71 @@ header {
 
 
 
+/* Heading Section */
+.heading-section {
+  
+  height: 250px;
+  background: linear-gradient(rgba(255, 255, 255), rgba(255, 255, 255));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  margin-top: 30px;
+}
 
+.heading-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
 
+.heading-content p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  color: #000000;
+}
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .heading-section {
+    height: auto; /* Adjust height for smaller screens */
+    padding: 30px 15px;
+    text-align: center;
+  }
 
+  .heading-content h1 {
+    font-size: 2rem; /* Reduce font size on medium screens */
+  }
 
+  .heading-content p {
+    font-size: 1rem;
+    max-width: 90%; /* Reduce the width of the paragraph */
+  }
+}
 
+@media (max-width: 480px) {
+  .heading-section {
+    flex-direction: column; /* Stack content vertically */
+    padding: 20px;
+    text-align: center;
+  }
 
+  .heading-content h1 {
+    font-size: 1.8rem; /* Further reduce the font size */
+  }
+
+  .heading-content p {
+    font-size: 0.9rem;
+  }
+}
 
 
 
 /* Tabs Section */
 #notes-section {
   padding: 20px;
-  margin-top: 100px;
+  /* margin-top: 100px; */
+  background-color: white;
 }
 
 /* Styling for the tabs */
@@ -313,30 +371,30 @@ header {
 }
 
 .tab-btn:hover {
-  background-color: #007bff;
+  background-color: #000000;
   color: white;
 }
 
 .tab-btn.active {
-  background-color: #007bff;
+  background-color: #000000;
   color: white;
 }
 
 /* Aligning specific buttons */
 .tab-btn.left {
   align-self: flex-start;
-  margin-left: 45px;
+  margin-left: 32px;
 }
 
 .tab-btn.center {
   margin: 0 auto;
-  margin-left: 530px;
+  margin-left: 480px;
 
 }
 
 .tab-btn.right {
   align-self: flex-end;
-  margin-right: -100px;
+  margin-right: -20px;
 }
 
 /* Notes content styling */
@@ -361,8 +419,8 @@ header {
 
 .notes-list {
   display: none;
-  width: 15%; /* Adjust content width */
-  text-align: center;
+  width: 20%; /* Adjust content width */
+  text-align: left;
   animation: fade-in 0.3s ease-in-out; /* Animation when content appears */
   margin-top: -20px;
 
@@ -380,6 +438,7 @@ header {
 .notes-list ul {
   list-style-type: none;
   padding: 0;
+  align-items: start;
 }
 
 .notes-list ul li {
@@ -388,8 +447,12 @@ header {
 
 .notes-list ul li a {
   text-decoration: none;
-  color: #007bff;
-  font-weight: bold;
+  color: #1d1d1d;
+  /* font-weight: bold; */
+  transition: text-decoration 0.3s ease;
+}
+.notes-list ul li a i {
+  color: rgb(115, 115, 240);
 }
 
 .notes-list ul li a:hover {
@@ -414,7 +477,135 @@ footer {
   padding: 10px;
   background: #333;
   color: white;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+  width: 98vw;
+}
+@media(max-width:768px){
+  #notes-section{
+    display: flex;
+    flex-direction: column;
+  }
+  .notes-content{
+    flex-direction: column;
+  }
+}
+/* PYQs Section */
+/* PYQs Section */
+#pyqs-section {
+  padding: 20px;
+  background-color: #ffffff;
+  height: 100vh;
+}
+
+/* Tabs styling */
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  position: relative; /* To position chapter lists below tabs */
+}
+
+.tab-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  transition: all 0.3s ease;
+}
+
+.tab-btn:hover {
+  background-color: #000000;
+  color: white;
+}
+
+.tab-btn.active {
+  background-color: #000000;
+  color: white;
+}
+
+.tab-btn.left {
+  align-self: flex-start;
+}
+
+.tab-btn.center {
+  align-self: center;
+}
+
+.tab-btn.right {
+  align-self: flex-end;
+}
+
+/* Content styling (position below respective tabs) */
+.pyqs-list {
+  display: none;
+  position: absolute; /* Make the chapter lists appear below the buttons */
+ /* Adjust spacing below the tabs */
+  width: 50%; /* Match the width of the respective tab button */
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+  animation: fade-in 0.3s ease-in-out; /* Animation when content appears */
+
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.pyqs-list.active {
+  display: block;
+  width: 50%;
+}
+
+.pyqs-list ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 21vw;
+}
+
+.pyqs-list ul li {
+  margin-bottom: 10px;
+}
+
+.pyqs-list ul li a {
+  text-decoration: none;
+  color: #161616;
+  transition: color 0.3s ease;
+}
+
+.pyqs-list ul li a:hover {
+  text-decoration: underline;
+  
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .tabs {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .tab-btn {
+    width: 100%;
+  }
+
+  .pyqs-list {
+    width: 100%; /* Adjust chapter lists to span the full width */
+  }
+}
+#math-pyqs ul{
+  margin-left: -50px;
+}
+ul i{
+  color: rgb(115, 115, 240);
 }

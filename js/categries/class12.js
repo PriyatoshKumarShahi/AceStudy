@@ -40,3 +40,32 @@ const navLinks = document.querySelector('.nav-links');
 hamburger.addEventListener('click', () => {
   navLinks.classList.toggle('active');
 });
+
+// JavaScript to handle tab functionality
+document.querySelectorAll("#pyqs-section .tab-btn").forEach((tab) => {
+  tab.addEventListener("click", function () {
+    // Remove 'active' class from all buttons and lists
+    document.querySelectorAll("#pyqs-section .tab-btn").forEach((btn) => btn.classList.remove("active"));
+    document.querySelectorAll("#pyqs-section .pyqs-list").forEach((list) => list.classList.remove("active"));
+
+    // Add 'active' class to the clicked button and the corresponding list
+    this.classList.add("active");
+    const targetList = document.getElementById(this.dataset.target);
+
+    // Adjust position of the target list to appear just below the clicked button
+    targetList.style.left = `${this.offsetLeft}px`; // Align with the button
+    targetList.style.width = `${this.offsetWidth}px`; // Match button width
+    targetList.classList.add("active");
+  });
+});
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function(e) {
+      e.preventDefault();
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+      });
+  });
+});
+
+
+

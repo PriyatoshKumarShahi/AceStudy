@@ -252,6 +252,7 @@ body {
 
   .hamburger {
     display: flex;
+    margin-left: 130px;
   }
 }
 /* Hero Section Styles */
