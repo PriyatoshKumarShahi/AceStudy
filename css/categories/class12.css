@@ -4,7 +4,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: white;
+  background-color: rgb(11, 11, 11);
   color: #333;
   overflow-x: hidden;
   width: 100%;
@@ -288,12 +288,12 @@ header {
 .heading-section {
   
   height: 250px;
-  background: linear-gradient(rgba(255, 255, 255), rgba(255, 255, 255));
+  background-color: rgb(11, 11, 11);
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   padding: 20px;
   margin-top: 30px;
 }
@@ -306,7 +306,7 @@ header {
 .heading-content p {
   font-size: 1.2rem;
   max-width: 600px;
-  color: #000000;
+  color: #747474;
 }
 /* Responsive Styles */
 @media (max-width: 768px) {
@@ -348,7 +348,8 @@ header {
 #notes-section {
   padding: 20px;
   /* margin-top: 100px; */
-  background-color: white;
+  background-color: rgb(11, 11, 11);
+  color: white;
 }
 
 /* Styling for the tabs */
@@ -366,7 +367,7 @@ header {
   cursor: pointer;
   border: 2px solid #ddd;
   border-radius: 5px;
-  background-color: #f8f8f8;
+  background-color: #ffffff;
   transition: all 0.3s ease;
 }
 
@@ -376,8 +377,8 @@ header {
 }
 
 .tab-btn.active {
-  background-color: #000000;
-  color: white;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
 }
 
 /* Aligning specific buttons */
@@ -388,13 +389,13 @@ header {
 
 .tab-btn.center {
   margin: 0 auto;
-  margin-left: 480px;
+  margin-left: 510px;
 
 }
 
 .tab-btn.right {
   align-self: flex-end;
-  margin-right: -20px;
+  margin-right: 40px;
 }
 
 /* Notes content styling */
@@ -419,7 +420,7 @@ header {
 
 .notes-list {
   display: none;
-  width: 20%; /* Adjust content width */
+  width: 26%; /* Adjust content width */
   text-align: left;
   animation: fade-in 0.3s ease-in-out; /* Animation when content appears */
   margin-top: -20px;
@@ -447,12 +448,13 @@ header {
 
 .notes-list ul li a {
   text-decoration: none;
-  color: #1d1d1d;
+  color: #d0d0d0;
   /* font-weight: bold; */
   transition: text-decoration 0.3s ease;
 }
 .notes-list ul li a i {
-  color: rgb(115, 115, 240);
+  color: rgb(140, 140, 243);
+  
 }
 
 .notes-list ul li a:hover {
@@ -475,7 +477,7 @@ header {
 footer {
   text-align: center;
   padding: 10px;
-  background: #333;
+  background-color: rgb(11, 11, 11);
   color: white;
   width: 98vw;
 }
@@ -488,20 +490,39 @@ footer {
     flex-direction: column;
   }
 }
-/* PYQs Section */
-/* PYQs Section */
-#pyqs-section {
-  padding: 20px;
-  background-color: #ffffff;
-  height: 100vh;
-}
 
-/* Tabs styling */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PYQs Section */
+/* PYQs Section */
+/* #pyqs-section {
+  padding: 20px;
+  background-color: rgb(11, 11, 11);
+  height: 100vh;
+  color: white;
+  text-align: center; }
+
 .tabs {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around; 
   margin-bottom: 20px;
-  position: relative; /* To position chapter lists below tabs */
+  position: relative;
 }
 
 .tab-btn {
@@ -510,44 +531,47 @@ footer {
   cursor: pointer;
   border: 2px solid #ddd;
   border-radius: 5px;
-  background-color: #f8f8f8;
+  background-color: #000000;
   transition: all 0.3s ease;
+  color: rgb(255, 255, 255);
 }
 
 .tab-btn:hover {
-  background-color: #000000;
+  background-color: #0d0d0d;
   color: white;
 }
 
 .tab-btn.active {
-  background-color: #000000;
-  color: white;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
 }
 
-.tab-btn.left {
+.tab-btn.left2 {
   align-self: flex-start;
 }
 
-.tab-btn.center {
+.tab-btn.center2 {
   align-self: center;
 }
 
-.tab-btn.right {
+.tab-btn.right2 {
   align-self: flex-end;
 }
 
-/* Content styling (position below respective tabs) */
 .pyqs-list {
   display: none;
-  position: absolute; /* Make the chapter lists appear below the buttons */
- /* Adjust spacing below the tabs */
-  width: 50%; /* Match the width of the respective tab button */
-  background-color: #ffffff;
+  position: absolute;
+  top: 100%;
+  width: auto;
+  background-color: rgb(11, 11, 11);
   border-radius: 5px;
   padding: 10px;
-  animation: fade-in 0.3s ease-in-out; /* Animation when content appears */
-
+  animation: fade-in 0.3s ease-in-out;
+  color: #d0d0d0;
+  left: 50%; 
+  transform: translateX(-50%); 
 }
+
 @keyframes fade-in {
   from {
     opacity: 0;
@@ -559,17 +583,13 @@ footer {
   }
 }
 
-
 .pyqs-list.active {
   display: block;
-  width: 50%;
 }
 
 .pyqs-list ul {
   list-style: none;
-  margin: 0;
   padding: 0;
-  width: 21vw;
 }
 
 .pyqs-list ul li {
@@ -578,20 +598,18 @@ footer {
 
 .pyqs-list ul li a {
   text-decoration: none;
-  color: #161616;
+  color: #d0d0d0;
   transition: color 0.3s ease;
 }
 
 .pyqs-list ul li a:hover {
   text-decoration: underline;
-  
 }
 
-/* Responsive styles */
 @media (max-width: 768px) {
   .tabs {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     gap: 10px;
   }
 
@@ -600,12 +618,6 @@ footer {
   }
 
   .pyqs-list {
-    width: 100%; /* Adjust chapter lists to span the full width */
+    width: 100%;
   }
-}
-#math-pyqs ul{
-  margin-left: -50px;
-}
-ul i{
-  color: rgb(115, 115, 240);
-}
+} */

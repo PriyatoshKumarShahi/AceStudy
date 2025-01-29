@@ -1,26 +1,19 @@
-// Get all the tab buttons and notes content sections
-const tabButtons = document.querySelectorAll(".tab-btn");
-const notesContent = document.querySelector(".notes-content");
-const notesLists = document.querySelectorAll(".notes-list");
-
-// Add event listeners to each tab button
-tabButtons.forEach((button) => {
+// NOTES SECTION FUNCTIONALITY
+document.querySelectorAll("#notes-section .tab-btn").forEach((button) => {
   button.addEventListener("click", () => {
-    // Remove the active class from all tab buttons and notes
-    tabButtons.forEach((btn) => btn.classList.remove("active"));
-    notesLists.forEach((list) => list.classList.remove("active"));
+    // Remove 'active' class from all notes tabs and lists
+    document.querySelectorAll("#notes-section .tab-btn").forEach((btn) => btn.classList.remove("active"));
+    document.querySelectorAll("#notes-section .notes-list").forEach((list) => list.classList.remove("active"));
 
-    // Add the active class to the clicked tab button
+    // Activate the clicked button
     button.classList.add("active");
 
-    // Get the target notes section
-    const targetId = button.getAttribute("data-target");
-    const targetList = document.getElementById(targetId);
-
-    // Add the active class to the target notes section
+    // Show the corresponding notes content
+    const targetList = document.getElementById(button.getAttribute("data-target"));
     targetList.classList.add("active");
 
-    // Align the notes content based on the button's position
+    // Align content based on the button's position
+    const notesContent = document.querySelector(".notes-content");
     if (button.classList.contains("left")) {
       notesContent.classList.remove("align-center", "align-right");
       notesContent.classList.add("align-left");
@@ -34,14 +27,7 @@ tabButtons.forEach((button) => {
   });
 });
 
-const hamburger = document.querySelector('.hamburger');
-const navLinks = document.querySelector('.nav-links');
-
-hamburger.addEventListener('click', () => {
-  navLinks.classList.toggle('active');
-});
-
-// JavaScript to handle tab functionality
+// PYQS SECTION FUNCTIONALITY
 document.querySelectorAll("#pyqs-section .tab-btn").forEach((tab) => {
   tab.addEventListener("click", function () {
     // Remove 'active' class from all buttons and lists
@@ -52,20 +38,47 @@ document.querySelectorAll("#pyqs-section .tab-btn").forEach((tab) => {
     this.classList.add("active");
     const targetList = document.getElementById(this.dataset.target);
 
-    // Adjust position of the target list to appear just below the clicked button
-    targetList.style.left = `${this.offsetLeft}px`; // Align with the button
+    // Set its position just below the button
+    targetList.style.top = `${this.offsetTop + this.offsetHeight}px`; // Position below button
+    targetList.style.left = `${this.offsetLeft + this.offsetWidth / 2}px`; // Align center with button
+    targetList.style.transform = "translateX(-50%)"; // Ensure perfect centering
     targetList.style.width = `${this.offsetWidth}px`; // Match button width
     targetList.classList.add("active");
   });
 });
+
+
+
+// HAMBURGER MENU TOGGLE
+const hamburger = document.querySelector(".hamburger");
+const navLinks = document.querySelector(".nav-links");
+
+hamburger.addEventListener("click", () => {
+  navLinks.classList.toggle("active");
+});
+
+// SMOOTH SCROLLING FOR NAVIGATION LINKS
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-  anchor.addEventListener('click', function(e) {
-      e.preventDefault();
-      document.querySelector(this.getAttribute('href')).scrollIntoView({
-          behavior: 'smooth'
-      });
+  anchor.addEventListener("click", function (e) {
+    e.preventDefault();
+    document.querySelector(this.getAttribute("href")).scrollIntoView({
+      behavior: "smooth"
+    });
   });
 });
 
+// NAVBAR SCROLL EFFECT
+const navbar = document.querySelector(".navbar");
+const logo = document.querySelector(".logo a");
 
-
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 50) {
+    navbar.classList.add("scrolled");
+    logo.classList.add("logo-scrolled");
+    hamburger.classList.add("scrolled");
+  } else {
+    navbar.classList.remove("scrolled");
+    logo.classList.remove("logo-scrolled");
+    hamburger.classList.remove("scrolled");
+  }
+});
