@@ -127,9 +127,9 @@ document.getElementById("revealSection").addEventListener("mousemove", (e) => {
 });
 
 // Reset to center on mouse leave
-document.getElementById("revealSection").addEventListener("mouseleave", () => {
-  updateMask(window.innerWidth / 2, window.innerHeight / 2);
-});
+// document.getElementById("revealSection").addEventListener("mouseleave", () => {
+//   updateMask(window.innerWidth / 2, window.innerHeight / 2);
+// });
 
 // Set default visible area on page load
 window.addEventListener("load", () => {
