@@ -23,5 +23,10 @@
     "name": "Computer Networks",
     "description": "Networking fundamentals, OSI, TCP/IP, and protocols.",
     "semester": 5
+  },
+  {
+    "name": "Mathematics I",
+    "description": "Matrices , Differentiation , Vectors.",
+    "semester": 1
   }
 ]
