@@ -217,7 +217,7 @@ function initFilterLogic() {
 
     courseSelect.selectedIndex = 0;
     semesterSelect.selectedIndex = 0;
-    container.innerHTML = "";
+    // container.innerHTML = "";
   });
 
   courseSelect.addEventListener("change", () => {
@@ -228,7 +228,7 @@ function initFilterLogic() {
     }
 
     semesterSelect.selectedIndex = 0;
-    container.innerHTML = "";
+    // container.innerHTML = "";
   });
 
   semesterSelect.addEventListener("change", () => {

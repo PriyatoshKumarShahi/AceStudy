@@ -1053,6 +1053,10 @@ margin: 0 auto;
   font-size: 1rem;
   font-weight: 700;
 }
+.footer a{
+  text-decoration: none;
+  color: gray;
+}
 @media (max-width:768px){
   .footer{
     font-size: 0.55rem;

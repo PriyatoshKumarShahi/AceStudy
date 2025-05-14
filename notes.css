@@ -529,3 +529,41 @@ option {
   font-weight: 500;
   transition: background-color 0.3s ease;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 40px;
+  color: gray;
+  border-top: 1px solid var(--border);
+  font-size: 1rem;
+  font-weight: 700;
+}
+.footer a{
+  text-decoration: none;
+  color: gray;
+}
+@media (max-width:768px){
+  .footer{
+    font-size: 0.55rem;
+    font-weight: 600;
+    padding: 10px;
+    gap: 10px;
+  }
+}
