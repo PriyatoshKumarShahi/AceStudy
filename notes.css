@@ -442,7 +442,7 @@ option {
 
 @media (max-width: 768px) {
   .filter{
-    max-width: 80%;
+    max-width: 85%;
     height: 280px;
 
   }
@@ -450,13 +450,14 @@ option {
     font-size:1.3rem ;
     margin-left: 30px;
   }
+
   select{
-    font-size: 0.8rem;
-    margin: 5px 5px 5px 5px;
+    font-size: 0.7rem;
+    margin: 2px 2px 2px 2px;
  
   }
   .filters{
-   margin-left: 10px;
+   margin-left: 0px;
     gap: 0px;
   }
 }
