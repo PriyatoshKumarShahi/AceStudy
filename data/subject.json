@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Basic Programming with C",
+    "description": "C language basics, loops, arrays, functions, and more.",
+    "semester": 1
+  },
+  {
+    "name": "History Science and Tech",
+    "description": "Indian scientific heritage, historical innovations.",
+    "semester": 1
+  },
+  {
+    "name": "Basic Electrical Engineering",
+    "description": "Electrical fundamentals, circuits, laws and machines.",
+    "semester": 1
+  },
+  {
+    "name": "Data Structures",
+    "description": "Stacks, queues, trees, graphs, and time complexities.",
+    "semester": 3
+  },
+  {
+    "name": "Computer Networks",
+    "description": "Networking fundamentals, OSI, TCP/IP, and protocols.",
+    "semester": 5
+  }
+]
