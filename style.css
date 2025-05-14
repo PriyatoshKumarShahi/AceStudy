@@ -418,7 +418,7 @@ p {
     margin-top: -100px;
   }
   h1 {
-    font-size: 3.7rem;
+    font-size: 3.5rem;
     margin-left: 40px;
     margin-bottom: 3px;
     /* margin-top: -100px; */
@@ -459,7 +459,7 @@ p {
 }
 
 .section-heading {
-  font-size: 5rem;
+  font-size: 4.5rem;
   color: var(--heading-main);
   margin-bottom: 3rem;
 }
@@ -677,7 +677,7 @@ background-size: contain; /* or cover */
     margin-top: -100px;
   }
   .section-heading{
-    font-size: 3.3rem;
+    font-size: 3rem;
   }
   .emoji{
     font-size: 3rem;
@@ -869,6 +869,9 @@ margin: 0 auto;
 }
 
 @media (max-width: 768px) {
+  .toggle-buttons{
+    margin-left: -20px;
+  }
   .note-box {
     width: 250px;
     text-align: center;
@@ -1059,9 +1062,9 @@ margin: 0 auto;
 }
 @media (max-width:768px){
   .footer{
-    font-size: 0.55rem;
+    font-size: 0.53rem;
     font-weight: 600;
-    padding: 10px;
+    padding: 5px;
     gap: 10px;
   }
 }
