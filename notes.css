@@ -443,6 +443,7 @@ option {
 @media (max-width: 768px) {
   .filter{
     max-width: 80%;
+    height: 280px;
 
   }
   .filter-heading h2,p {
@@ -451,10 +452,11 @@ option {
   }
   select{
     font-size: 0.8rem;
+    margin: 5px 5px 5px 5px;
  
   }
   .filters{
-   margin-left: 100px;
+   margin-left: 10px;
     gap: 0px;
   }
 }

@@ -241,6 +241,12 @@ function initFilterLogic() {
       return;
     }
 
+
+
+    setTimeout(() => {
+      container.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }, 100);
+
     const filtered = subjects.filter(subj => subj.semester === semester);
     displaySubjects(filtered);
   });
@@ -292,9 +298,7 @@ function displaySubjects(subjectArray) {
     container.appendChild(card);
   });
 
-  setTimeout(() => {
-    container.scrollIntoView({ behavior: 'smooth', block: 'start' });
-  }, 100);
+ 
 }
 
 // Show 6 random default subjects before any selection
