@@ -90,128 +90,115 @@ dropdown.addEventListener('mouseout', () => {
 
 
 
-let subjects = [];
+let papers = [];
 
-fetch('/data/subject.json')
+fetch('/data/pyp.json')
   .then(response => response.json())
   .then(data => {
-    subjects = data;
+    papers = data;
     initFilterLogic();
-    displayDefaultSubjects(); // show some subjects by default
+    displayDefaultSubjects();
   })
-  .catch(err => {
-    console.error("Failed to load subjects.json:", err);
-  });
+  .catch(err => console.error("Failed to load pyp.json:", err));
 
 function initFilterLogic() {
   const universitySelect = document.getElementById("universitySelect");
   const courseSelect = document.getElementById("courseSelect");
   const semesterSelect = document.getElementById("semesterSelect");
+  const yearSelect = document.getElementById("yearSelect");
   const container = document.getElementById("cardsContainer");
 
+  // Disable all but university initially
   courseSelect.disabled = true;
   semesterSelect.disabled = true;
+  yearSelect.disabled = true;
 
   universitySelect.addEventListener("change", () => {
-    if (universitySelect.value) {
-      courseSelect.disabled = false;
-    } else {
-      courseSelect.disabled = true;
-      semesterSelect.disabled = true;
-    }
-
+    courseSelect.disabled = !universitySelect.value;
+    semesterSelect.disabled = true;
+    yearSelect.disabled = true;
     courseSelect.selectedIndex = 0;
     semesterSelect.selectedIndex = 0;
-    // container.innerHTML = "";
+    yearSelect.selectedIndex = 0;
   });
 
   courseSelect.addEventListener("change", () => {
-    if (courseSelect.value) {
-      semesterSelect.disabled = false;
-    } else {
-      semesterSelect.disabled = true;
-    }
-
+    semesterSelect.disabled = !courseSelect.value;
+    yearSelect.disabled = true;
     semesterSelect.selectedIndex = 0;
-    // container.innerHTML = "";
+    yearSelect.selectedIndex = 0;
   });
 
   semesterSelect.addEventListener("change", () => {
+    yearSelect.disabled = !semesterSelect.value;
+    yearSelect.selectedIndex = 0;
+  });
+
+  yearSelect.addEventListener("change", () => {
     const university = universitySelect.value;
     const course = courseSelect.value;
     const semester = parseInt(semesterSelect.value);
+    const year = yearSelect.value;
 
-    if (!university || !course || isNaN(semester)) {
+    if (!university || !course || isNaN(semester) || !year) {
       container.innerHTML = "";
       return;
     }
 
+    const filtered = papers.filter(
+      item =>
+        item.university === university &&
+        item.course === course &&
+        item.semester === semester &&
+        item.year === year
+    );
 
-
-    setTimeout(() => {
-      container.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }, 100);
-
-    const filtered = subjects.filter(subj => subj.semester === semester);
+    container.scrollIntoView({ behavior: "smooth", block: "start" });
     displaySubjects(filtered);
   });
 }
 
-// Helper to get ordinal string like "1st", "2nd", etc.
+function displaySubjects(subjectArray) {
+  const container = document.getElementById("cardsContainer");
+  container.innerHTML = "";
+
+  if (subjectArray.length === 0) {
+    container.innerHTML = `<p style="color:white;">No papers found.</p>`;
+    return;
+  }
+
+  subjectArray.forEach(paper => {
+    const year = paper.semester <= 2 ? "1st Year"
+               : paper.semester <= 4 ? "2nd Year"
+               : "3rd Year";
+
+    const card = document.createElement("div");
+    card.className = "card";
+    card.innerHTML = `
+      <h3>${paper.subject}</h3>
+      <p>Question Paper</p>
+      <div class="tags">
+        <span class="tag">${getOrdinalSuffix(paper.semester)} Semester</span>
+        <span class="tag">${paper.year}</span>
+        <span class="tag">${year}</span>
+      </div>
+      <div class="read-notes-wrapper">
+        <a href="${paper.url}" target="_blank" class="read-notes-btn">
+          <i class="fa-solid fa-file-pdf"></i> Open Paper <i class="fa-solid fa-arrow-right-long"></i>
+        </a>
+      </div>
+    `;
+    container.appendChild(card);
+  });
+}
+
 function getOrdinalSuffix(n) {
   const suffixes = ["th", "st", "nd", "rd"];
   const v = n % 100;
   return n + (suffixes[(v - 20) % 10] || suffixes[v] || suffixes[0]);
 }
 
-// Create slug from subject name
-function slugify(text) {
-  return text.toLowerCase().replace(/\s+/g, '-').replace(/[^\w-]+/g, '');
-}
-
-// Render subject cards to container
-function displaySubjects(subjectArray) {
-  const container = document.getElementById("cardsContainer");
-  container.innerHTML = "";
-
-  if (subjectArray.length === 0) {
-    container.innerHTML = `<p style="color: white; font-size: 1rem;">No subjects found.</p>`;
-    return;
-  }
-
-  subjectArray.forEach((subj) => {
-    const year = subj.semester <= 2 ? "1st Year"
-               : subj.semester <= 4 ? "2nd Year"
-               : "3rd Year";
-
-    const slug = slugify(subj.name);
-    const card = document.createElement("div");
-    card.className = "card";
-    card.innerHTML = `
-      <h3>${subj.name}</h3>
-      <p>${subj.description}</p>
-      <div class="tags">
-        <span class="tag">${subj.name}</span>
-        <span class="tag">${getOrdinalSuffix(subj.semester)} Semester</span>
-        <span class="tag">${year}</span>
-      </div>
-      <div class="read-notes-wrapper">
-        <a href="notes/${slug}" class="read-notes-btn" ><i class="fa-solid fa-book-open"></i> Read Notes <i class="fa-solid fa-arrow-right-long"></i></a>
-
-      </div>
-    `;
-    container.appendChild(card);
-  });
-
- 
-}
-
-// Show 6 random default subjects before any selection
 function displayDefaultSubjects() {
-  const defaultSubjects = [...subjects]
-    .sort(() => 0.5 - Math.random())
-    .slice(0, 6);
-
-  displaySubjects(defaultSubjects);
+  const defaults = [...papers].sort(() => 0.5 - Math.random()).slice(0, 6);
+  displaySubjects(defaults);
 }
-
