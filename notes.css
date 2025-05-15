@@ -396,7 +396,6 @@ border: 1px solid var(--border);
 .header h1 {
   font-size: 2rem;
 }
-
 .header p {
   font-size: 1rem;
   color: #94a3b8;
@@ -432,7 +431,7 @@ p {
   flex-wrap: wrap;
   gap: 1rem;
   margin-bottom: 2rem;
-  margin-left: -220px;
+  margin-left: -50px;
   font-size: 1.5rem;
   background-color: var(--bg-color);
 }
