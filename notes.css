@@ -482,10 +482,10 @@ option {
 
 .cards-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 1.5rem;
   margin-top: 150px;
-  max-width: 60vw;
+  max-width: 70vw;
   margin: 150px auto;
 }
 
@@ -498,6 +498,7 @@ option {
   flex-direction: column;
   border: 1px solid var(--border);
   transition: border 0.3s ease, transform 0.3s ease;
+
 }
 
 .card:hover {

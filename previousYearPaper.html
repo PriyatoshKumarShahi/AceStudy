@@ -5,6 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Previous Year Paper | AceStudy</title>
   <link rel="stylesheet" href="pyp.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
 </head>
 <link
 rel="stylesheet"
@@ -63,6 +67,44 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
   </div>
 </div>
 
+
+
+
+
+ <div class="filter">
+      <div class="filter-heading">
+        <h2><i class="fa-solid fa-filter"></i> Filters</h2>
+        <p>Use below filters to find your previous year papers!</p>
+      </div>
+      <div class="filters">
+        <div class="filter-box">
+          <select id="universitySelect">
+            <option disabled selected>Select University</option>
+            <option value="aktu">AKTU University</option>
+          </select>
+        </div>
+        <div class="filter-box">
+          <select id="courseSelect">
+            <option disabled selected>Select Course</option>
+            <option value="btech">B.Tech</option>
+          </select>
+        </div>
+        <div class="filter-box">
+          <select id="semesterSelect">
+            <option value="" selected>Select Semester</option>
+            <option value="1">1st Semester</option>
+            <option value="2">2nd Semester</option>
+            <option value="3">3rd Semester</option>
+            <option value="4">4th Semester</option>
+            <option value="5">5th Semester</option>
+            <option value="6">6th Semester</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="cardsContainer" class="cards-container"></div>
 
   <script src="pyp.js"></script>
 </body>
