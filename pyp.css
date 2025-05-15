@@ -419,7 +419,7 @@ p {
   flex-wrap: wrap;
   gap: 1rem;
   margin-bottom: 2rem;
-  margin-left: -50px;
+  /* margin-left: -80px; */
   font-size: 1.5rem;
   background-color: var(--bg-color);
 }
@@ -437,6 +437,7 @@ select {
   font-size: 1rem;
   font-family: "Poppins", sans-serif;
   cursor: pointer;
+  width: 170px;
 }
 
 option {
@@ -449,17 +450,22 @@ option {
 @media (max-width: 768px) {
   .filter{
     max-width: 85%;
-    height: 280px;
+    height: 300px;
 
   }
-  .filter-heading h2,p {
-    font-size:1.3rem ;
+  .filter-heading h2 {
+    font-size:1.1rem ;
+    margin-left: 30px;
+  }
+  .filter-heading p {
+    font-size:1rem ;
     margin-left: 30px;
   }
 
   select{
     font-size: 0.7rem;
-    margin: 2px 2px 2px 2px;
+    margin: 5px 3px 4px 2px;
+    width: 40vw;
  
   }
   .filters{
@@ -496,8 +502,7 @@ option {
   flex-direction: column;
   border: 1px solid var(--border);
   transition: border 0.3s ease, transform 0.3s ease;
-height: auto;
-}
+height: auto;}
 
 .card:hover {
   transform: translateY(-5px);

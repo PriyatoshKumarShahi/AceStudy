@@ -19,6 +19,14 @@
     "university": "aktu",
     "course": "btech",
     "semester": 4,
+    "year": "2021-22",
+    "subject": "Operating Systems",
+    "url": "/papers/aktu/btech/4/operating-systems-2021-22.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
     "year": "2020-21",
     "subject": "Database Management Systems",
     "url": "/papers/aktu/btech/4/dbms-2020-21.pdf"

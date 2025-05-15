@@ -176,14 +176,14 @@ function displaySubjects(subjectArray) {
     card.className = "card";
     card.innerHTML = `
       <h3>${paper.subject}</h3>
-      <p>Question Paper</p>
+      <p>${paper.subject} question paper</p>
       <div class="tags">
         <span class="tag">${getOrdinalSuffix(paper.semester)} Semester</span>
         <span class="tag">${paper.year}</span>
         <span class="tag">${year}</span>
       </div>
       <div class="read-notes-wrapper">
-        <a href="${paper.url}" target="_blank" class="read-notes-btn">
+        <a href="${paper.url}"  class="read-notes-btn">
           <i class="fa-solid fa-file-pdf"></i> Open Paper <i class="fa-solid fa-arrow-right-long"></i>
         </a>
       </div>
