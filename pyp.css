@@ -220,7 +220,7 @@ border: 1px solid var(--border);
 
 /* Small screens */
 @media (max-width: 768px) {
-  .nav-left {
+   .nav-left {
     flex: 1;
     display: flex;
     align-items: center;
@@ -231,18 +231,10 @@ border: 1px solid var(--border);
     position: absolute;
     top: 65px;
     right: 0;
-    /* margin-left: -100px; */
     display: none;
     flex-direction: column;
-    width: 200px;
-    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
     animation: slideDown 0.3s ease forwards;
-  }
- 
-  .nav-links ul{
-    margin-left: -340px;
-    background-color: var(--nav-bg);
-    text-align: center;
+    z-index: 1000;
   }
 
   .nav-links.active {
@@ -250,9 +242,15 @@ border: 1px solid var(--border);
   }
 
   .nav-links ul {
+    background-color: var(--nav-bg);
+    text-align: right;
     flex-direction: column;
     gap: 1.2rem;
-    padding: 1rem 0;
+    padding: 1rem 1.5rem;
+    width: max-content;         /* ✅ Auto width based on content */
+    margin-left: auto;          /* ✅ Push to right */
+    border-left: 1px solid var(--border-color); /* optional border */
+    box-shadow: -2px 2px 8px rgba(0, 0, 0, 0.2); /* optional shadow */
   }
 
   .hamburger {
@@ -298,41 +296,65 @@ border: 1px solid var(--border);
 
 
 
+.welcome {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 4rem 2rem;
+  gap: 2rem;
+  border-radius: 12px;
+  flex-wrap: wrap;
+}
 
-
-.welcome{
-  max-width: 1100px;
-  margin: 0 auto;
-  text-align: center;
-  padding: 60px 20px;
-
+.welcome-text {
+  flex: 1;
+  min-width: 280px;
+  margin-left: 50px;
 }
 
 .main-heading {
-  font-size: 5rem;
-  font-weight: 700;
-  margin-bottom: 10px;
+  font-size: 4.5rem;
+  margin-bottom: 1rem;
   color: var(--heading-main);
 }
 
 .sub-heading {
   font-size: 1.2rem;
-  color: #a1a1a1;
-  margin-bottom: 40px;
-  /* margin-left: -30px; */
+  color: var(--text-color);
 }
 
-
-
-
-
-
-
-
-.main-heading {
-  font-size: 3rem;
+.welcome-img {
+  flex: 1;
+  display: flex;
+  justify-content: center;
 }
 
-.sub-heading {
-  margin-left: 0px;
+.welcome-img img {
+  max-width: 50%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .welcome {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .welcome-text,
+  .welcome-img {
+    width: 100%;
+  }
+  .welcome-text{
+    margin-left: 0px;
+  }
+
+  .main-heading {
+    font-size: 2rem;
+  }
+
+  .sub-heading {
+    font-size: 1rem;
+  }
 }
