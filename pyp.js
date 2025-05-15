@@ -183,7 +183,7 @@ function displaySubjects(subjectArray) {
         <span class="tag">${year}</span>
       </div>
       <div class="read-notes-wrapper">
-        <a href="${paper.url}"  class="read-notes-btn">
+        <a href="${paper.url}" target="_blank" class="read-notes-btn">
           <i class="fa-solid fa-file-pdf"></i> Open Paper <i class="fa-solid fa-arrow-right-long"></i>
         </a>
       </div>
