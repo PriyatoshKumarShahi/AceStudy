@@ -396,7 +396,7 @@ border: 1px solid var(--border);
   gap: 20px;
   border-radius: 20px;
   border: 1px solid var(--border);
-  max-width: 60vw;
+  max-width: 70vw;
   height: 200px;
   margin: auto;
 }
@@ -437,7 +437,7 @@ select {
   font-size: 1rem;
   font-family: "Poppins", sans-serif;
   cursor: pointer;
-  width: 170px;
+  width: 200px;
 }
 
 option {
