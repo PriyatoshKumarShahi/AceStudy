@@ -2145,22 +2145,22 @@
 
 
 
-
 {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2017-18",
-    "subject": "Building Material Construction",
-    "url": "/papers/3/building-material-construction-2017-18.pdf"
+    "subject": "Applied Thermodynamics",
+    "url": "/papers/4/applied-thermodynamics-2017-18.pdf"
   },
+
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2017-18",
-    "subject": "Computer Organization Architecture",
-    "url": "/papers/3/computer-organization-architecture-2017-18.pdf"
+    "subject": "Data Structure and Algorithms",
+    "url": "/papers/4/data-structure-algorithms-2017-18.pdf"
   },
   {
     "university": "aktu",
@@ -2168,31 +2168,31 @@
     "semester": 4,
     "year": "2017-18",
     "subject": "Data Structures",
-    "url": "/papers/3/data-structures-2017-18.pdf"
+    "url": "/papers/4/data-structures-2017-18.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2017-18",
-    "subject": "Digital Logic Design",
-    "url": "/papers/3/digital-logic-design-2017-18.pdf"
+    "subject": "Electrical Machines and Controls",
+    "url": "/papers/4/electrical-machines-and-controls-2017-18.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2017-18",
-    "subject": "Discrete Structures & Theory of Logic",
-    "url": "/papers/3/discrete-structures-theory-of-logic-2017-18.pdf"
+    "subject": "Electromagnetic Field Theory",
+    "url": "/papers/4/electromagnetic-field-theory-2017-18.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2017-18",
-    "subject": "Electronic Devices and Circuits",
-    "url": "/papers/3/electonic-devices-and-circuits-2017-18.pdf"
+    "subject": "Electronic Measurement and Instrumentation",
+    "url": "/papers/4/electonic-measurement-and-instrumentation-2017-18.pdf"
   },
   {
     "university": "aktu",
@@ -2200,15 +2200,39 @@
     "semester": 4,
     "year": "2017-18",
     "subject": "Environment & Ecology",
-    "url": "/papers/3/environment-ecology-2017-18.pdf"
+    "url": "/papers/4/environment-ecology-2017-18.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2017-18",
-    "subject": "Fluid Mechanics",
-    "url": "/papers/3/fluid-mechanics-2017-18.pdf"
+    "subject": "Geoinformatics",
+    "url": "/papers/4/geoinformatics-2017-18.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
+    "year": "2017-18",
+    "subject": "Hydraulics and Hydraulic Machines",
+    "url": "/papers/4/hydraulics-and-hydraulic-machines-2017-18.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
+    "year": "2017-18",
+    "subject": "Information Theory and Coding",
+    "url": "/papers/4/information-theory-and-coding-2017-18.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
+    "year": "2017-18",
+    "subject": "Introduction to Microprocessors",
+    "url": "/papers/4/introduction-to-micrroprocessors-2017-18.pdf"
   },
   {
     "university": "aktu",
@@ -2216,23 +2240,15 @@
     "semester": 4,
     "year": "2017-18",
     "subject": "Laser Systems and Applications",
-    "url": "/papers/3/laser-systems-and-applications-2017-18.pdf"
+    "url": "/papers/4/laser-systems-and-applications-2017-18.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2017-18",
-    "subject": "Manufacturing Science",
-    "url": "/papers/3/manufacturing-science-2017-18.pdf"
-  },
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 4,
-    "year": "2017-18",
-    "subject": "Mechanics of Solids",
-    "url": "/papers/3/mechanics-of-solids-2017-18.pdf"
+    "subject": "Manufacturing Science and Technology" ,
+    "url": "/papers/4/manufacturing-science-and-technology-2017-18.pdf"
   },
   {
     "university": "aktu",
@@ -2240,39 +2256,47 @@
     "semester": 4,
     "year": "2017-18",
     "subject": "Mathematics-III",
-    "url": "/papers/3/mathematics-iii-2017-18.pdf"
+    "url": "/papers/4/mathematics-iii-2017-18.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2017-18",
-    "subject": "Network Analysis and Synthesis",
-    "url": "/papers/3/network-analysis-and-synthesis-2017-18.pdf"
+    "subject": "Measurement and Metrology",
+    "url": "/papers/4/measurement-and-metrology-2017-18.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2017-18",
-    "subject": "Signal and System",
-    "url": "/papers/3/signal-and-system-2017-18.pdf"
+    "subject": "Microprocessor and Microcontroller",
+    "url": "/papers/4/microprocessor-and-microcontroller-2017-18.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2017-18",
-    "subject": "Surveying",
-    "url": "/papers/3/surveying-2017-18.pdf"
+    "subject": "Operating System",
+    "url": "/papers/4/operating-system-2017-18.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2017-18",
-    "subject": "Thermodynamics",
-    "url": "/papers/3/thermodynamics-2017-18.pdf"
+    "subject": "Software Engineering",
+    "url": "/papers/4/software-engineering-2017-18.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
+    "year": "2017-18",
+    "subject": "Theory of Automata and Formal Languages",
+    "url": "/papers/4/theory-of-automata-and-formal-languages-2017-18.pdf"
   },
   {
     "university": "aktu",
@@ -2280,7 +2304,7 @@
     "semester": 4,
     "year": "2017-18",
     "subject": "Universal Human Values & Professional Ethics",
-    "url": "/papers/3/universal-human-values-professional-ethics-2017-18.pdf"
+    "url": "/papers/4/universal-human-values-professional-ethics-2017-18.pdf"
   },
 
 
@@ -2297,21 +2321,22 @@
 
 
   
-   {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 4,
-    "year": "2018-19",
-    "subject": "Building Material Construction",
-    "url": "/papers/3/building-material-construction-2018-19.pdf"
-  },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2018-19",
-    "subject": "Computer Organization Architecture",
-    "url": "/papers/3/computer-organization-architecture-2018-19.pdf"
+    "subject": "Applied Thermodynamics",
+    "url": "/papers/4/applied-thermodynamics-2018-19.pdf"
+  },
+
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
+    "year": "2018-19",
+    "subject": "Data Structure and Algorithms",
+    "url": "/papers/4/data-structure-algorithms-2018-19.pdf"
   },
   {
     "university": "aktu",
@@ -2319,31 +2344,31 @@
     "semester": 4,
     "year": "2018-19",
     "subject": "Data Structures",
-    "url": "/papers/3/data-structures-2018-19.pdf"
+    "url": "/papers/4/data-structures-2018-19.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2018-19",
-    "subject": "Digital Logic Design",
-    "url": "/papers/3/digital-logic-design-2018-19.pdf"
+    "subject": "Electrical Machines and Controls",
+    "url": "/papers/4/electrical-machines-and-controls-2018-19.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2018-19",
-    "subject": "Discrete Structures & Theory of Logic",
-    "url": "/papers/3/discrete-structures-theory-of-logic-2018-19.pdf"
+    "subject": "Electromagnetic Field Theory",
+    "url": "/papers/4/electromagnetic-field-theory-2018-19.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2018-19",
-    "subject": "Electronic Devices and Circuits",
-    "url": "/papers/3/electonic-devices-and-circuits-2018-19.pdf"
+    "subject": "Electronic Measurement and Instrumentation",
+    "url": "/papers/4/electonic-measurement-and-instrumentation-2018-19.pdf"
   },
   {
     "university": "aktu",
@@ -2351,15 +2376,39 @@
     "semester": 4,
     "year": "2018-19",
     "subject": "Environment & Ecology",
-    "url": "/papers/3/environment-ecology-2018-19.pdf"
+    "url": "/papers/4/environment-ecology-2018-19.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2018-19",
-    "subject": "Fluid Mechanics",
-    "url": "/papers/3/fluid-mechanics-2018-19.pdf"
+    "subject": "Geoinformatics",
+    "url": "/papers/4/geoinformatics-2018-19.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
+    "year": "2018-19",
+    "subject": "Hydraulics and Hydraulic Machines",
+    "url": "/papers/4/hydraulics-and-hydraulic-machines-2018-19.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
+    "year": "2018-19",
+    "subject": "Information Theory and Coding",
+    "url": "/papers/4/information-theory-and-coding-2018-19.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
+    "year": "2018-19",
+    "subject": "Introduction to Microprocessors",
+    "url": "/papers/4/introduction-to-micrroprocessors-2018-19.pdf"
   },
   {
     "university": "aktu",
@@ -2367,23 +2416,15 @@
     "semester": 4,
     "year": "2018-19",
     "subject": "Laser Systems and Applications",
-    "url": "/papers/3/laser-systems-and-applications-2018-19.pdf"
+    "url": "/papers/4/laser-systems-and-applications-2018-19.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2018-19",
-    "subject": "Manufacturing Science",
-    "url": "/papers/3/manufacturing-science-2018-19.pdf"
-  },
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 4,
-    "year": "2018-19",
-    "subject": "Mechanics of Solids",
-    "url": "/papers/3/mechanics-of-solids-2018-19.pdf"
+    "subject": "Manufacturing Science and Technology" ,
+    "url": "/papers/4/manufacturing-science-and-technology-2018-19.pdf"
   },
   {
     "university": "aktu",
@@ -2391,39 +2432,47 @@
     "semester": 4,
     "year": "2018-19",
     "subject": "Mathematics-III",
-    "url": "/papers/3/mathematics-iii-2018-19.pdf"
+    "url": "/papers/4/mathematics-iii-2018-19.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2018-19",
-    "subject": "Network Analysis and Synthesis",
-    "url": "/papers/3/network-analysis-and-synthesis-2018-19.pdf"
+    "subject": "Measurement and Metrology",
+    "url": "/papers/4/measurement-and-metrology-2018-19.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2018-19",
-    "subject": "Signal and System",
-    "url": "/papers/3/signal-and-system-2018-19.pdf"
+    "subject": "Microprocessor and Microcontroller",
+    "url": "/papers/4/microprocessor-and-microcontroller-2018-19.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2018-19",
-    "subject": "Surveying",
-    "url": "/papers/3/surveying-2018-19.pdf"
+    "subject": "Operating System",
+    "url": "/papers/4/operating-system-2018-19.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2018-19",
-    "subject": "Thermodynamics",
-    "url": "/papers/3/thermodynamics-2018-19.pdf"
+    "subject": "Software Engineering",
+    "url": "/papers/4/software-engineering-2018-19.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
+    "year": "2018-19",
+    "subject": "Theory of Automata and Formal Languages",
+    "url": "/papers/4/theory-of-automata-and-formal-languages-2018-19.pdf"
   },
   {
     "university": "aktu",
@@ -2431,28 +2480,37 @@
     "semester": 4,
     "year": "2018-19",
     "subject": "Universal Human Values & Professional Ethics",
-    "url": "/papers/3/universal-human-values-professional-ethics-2018-19.pdf"
+    "url": "/papers/4/universal-human-values-professional-ethics-2018-19.pdf"
   },
+
+
+
+
+
 
 
 
 
   
-     {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 4,
-    "year": "2019-20",
-    "subject": "Computer System and Security",
-    "url": "/papers/3/computer-system-security-2019-20.pdf"
-  },
+   
+
+  
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2019-20",
-    "subject": "Computer Organization Architecture",
-    "url": "/papers/3/computer-organization-architecture-2019-20.pdf"
+    "subject": "Applied Thermodynamics",
+    "url": "/papers/4/applied-thermodynamics-2019-20.pdf"
+  },
+
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
+    "year": "2019-20",
+    "subject": "Data Structure and Algorithms",
+    "url": "/papers/4/data-structure-algorithms-2019-20.pdf"
   },
   {
     "university": "aktu",
@@ -2460,47 +2518,71 @@
     "semester": 4,
     "year": "2019-20",
     "subject": "Data Structures",
-    "url": "/papers/3/data-structures-2019-20.pdf"
+    "url": "/papers/4/data-structures-2019-20.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2019-20",
-    "subject": "Digital System Design",
-    "url": "/papers/3/digital-system-design-2019-20.pdf"
+    "subject": "Electrical Machines and Controls",
+    "url": "/papers/4/electrical-machines-and-controls-2019-20.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2019-20",
-    "subject": "Discrete Structures & Theory of Logic",
-    "url": "/papers/3/discrete-structures-theory-of-logic-2019-20.pdf"
+    "subject": "Electromagnetic Field Theory",
+    "url": "/papers/4/electromagnetic-field-theory-2019-20.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2019-20",
-    "subject": "Electronic Devices and Circuits",
-    "url": "/papers/3/electonic-devices-and-circuits-2019-20.pdf"
+    "subject": "Electronic Measurement and Instrumentation",
+    "url": "/papers/4/electonic-measurement-and-instrumentation-2019-20.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2019-20",
-    "subject": "Engineering Mechanics",
-    "url": "/papers/3/engineering-mechanics-2019-20.pdf"
+    "subject": "Environment & Ecology",
+    "url": "/papers/4/environment-ecology-2019-20.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2019-20",
-    "subject": "Fluid Mechanics",
-    "url": "/papers/3/fluid-mechanics-2019-20.pdf"
+    "subject": "Geoinformatics",
+    "url": "/papers/4/geoinformatics-2019-20.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
+    "year": "2019-20",
+    "subject": "Hydraulics and Hydraulic Machines",
+    "url": "/papers/4/hydraulics-and-hydraulic-machines-2019-20.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
+    "year": "2019-20",
+    "subject": "Information Theory and Coding",
+    "url": "/papers/4/information-theory-and-coding-2019-20.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
+    "year": "2019-20",
+    "subject": "Introduction to Microprocessors",
+    "url": "/papers/4/introduction-to-micrroprocessors-2019-20.pdf"
   },
   {
     "university": "aktu",
@@ -2508,64 +2590,63 @@
     "semester": 4,
     "year": "2019-20",
     "subject": "Laser Systems and Applications",
-    "url": "/papers/3/laser-systems-and-applications-2019-20.pdf"
+    "url": "/papers/4/laser-systems-and-applications-2019-20.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2019-20",
-    "subject": "Material Engineering",
-    "url": "/papers/3/material-engineering-2019-20.pdf"
-  },
-  
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 4,
-    "year": "2019-20",
-    "subject": "Mathematics-IV",
-    "url": "/papers/3/mathematics-iv-2019-20.pdf"
+    "subject": "Manufacturing Science and Technology" ,
+    "url": "/papers/4/manufacturing-science-and-technology-2019-20.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2019-20",
-    "subject": "Network Analysis and Synthesis",
-    "url": "/papers/3/network-analysis-and-synthesis-2019-20.pdf"
+    "subject": "Mathematics-III",
+    "url": "/papers/4/mathematics-iii-2019-20.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2019-20",
-    "subject": "Python Programming",
-    "url": "/papers/3/python-programming-2019-20.pdf"
+    "subject": "Measurement and Metrology",
+    "url": "/papers/4/measurement-and-metrology-2019-20.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2019-20",
-    "subject": "Sensor and Instrumentation ",
-    "url": "/papers/3/sensor-and-instrumentation-2019-20.pdf"
+    "subject": "Microprocessor and Microcontroller",
+    "url": "/papers/4/microprocessor-and-microcontroller-2019-20.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2019-20",
-    "subject": "Technical Communication",
-    "url": "/papers/3/technical-communication-2019-20.pdf"
+    "subject": "Operating System",
+    "url": "/papers/4/operating-system-2019-20.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2019-20",
-    "subject": "Thermodynamics",
-    "url": "/papers/3/thermodynamics-2019-20.pdf"
+    "subject": "Software Engineering",
+    "url": "/papers/4/software-engineering-2019-20.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
+    "year": "2019-20",
+    "subject": "Theory of Automata and Formal Languages",
+    "url": "/papers/4/theory-of-automata-and-formal-languages-2019-20.pdf"
   },
   {
     "university": "aktu",
@@ -2573,32 +2654,33 @@
     "semester": 4,
     "year": "2019-20",
     "subject": "Universal Human Values & Professional Ethics",
-    "url": "/papers/3/universal-human-values-professional-ethics-2019-20.pdf"
-  }
-,
-
-
+    "url": "/papers/4/universal-human-values-professional-ethics-2019-20.pdf"
+  },
 
 
 
 
 
   
-   {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 4,
-    "year": "2020-21",
-    "subject": "Computer System and Security",
-    "url": "/papers/3/computer-system-security-2020-21.pdf"
-  },
+  
+
+  
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2020-21",
-    "subject": "Computer Organization Architecture",
-    "url": "/papers/3/computer-organization-architecture-2020-21.pdf"
+    "subject": "Applied Thermodynamics",
+    "url": "/papers/4/applied-thermodynamics-2020-21.pdf"
+  },
+
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
+    "year": "2020-21",
+    "subject": "Data Structure and Algorithms",
+    "url": "/papers/4/data-structure-algorithms-2020-21.pdf"
   },
   {
     "university": "aktu",
@@ -2606,98 +2688,135 @@
     "semester": 4,
     "year": "2020-21",
     "subject": "Data Structures",
-    "url": "/papers/3/data-structures-2020-21.pdf"
+    "url": "/papers/4/data-structures-2020-21.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2020-21",
-    "subject": "Digital System Design",
-    "url": "/papers/3/digital-system-design-2020-21.pdf"
+    "subject": "Electrical Machines and Controls",
+    "url": "/papers/4/electrical-machines-and-controls-2020-21.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2020-21",
-    "subject": "Discrete Structures & Theory of Logic",
-    "url": "/papers/3/discrete-structures-theory-of-logic-2020-21.pdf"
+    "subject": "Electromagnetic Field Theory",
+    "url": "/papers/4/electromagnetic-field-theory-2020-21.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2020-21",
-    "subject": "Electronic Devices and Circuits",
-    "url": "/papers/3/electonic-devices-and-circuits-2020-21.pdf"
-  },
- 
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 4,
-    "year": "2020-21",
-    "subject": "Fluid Mechanics",
-    "url": "/papers/3/fluid-mechanics-2020-21.pdf"
-  },
- 
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 4,
-    "year": "2020-21",
-    "subject": "Material Engineering",
-    "url": "/papers/3/material-engineering-2020-21.pdf"
-  },
- 
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 4,
-    "year": "2020-21",
-    "subject": "Mathematics-IV",
-    "url": "/papers/3/mathematics-iv-2020-21.pdf"
+    "subject": "Electronic Measurement and Instrumentation",
+    "url": "/papers/4/electonic-measurement-and-instrumentation-2020-21.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2020-21",
-    "subject": "Network Analysis and Synthesis",
-    "url": "/papers/3/network-analysis-and-synthesis-2020-21.pdf"
+    "subject": "Environment & Ecology",
+    "url": "/papers/4/environment-ecology-2020-21.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2020-21",
-    "subject": "Python Programming",
-    "url": "/papers/3/python-programming-2020-21.pdf"
+    "subject": "Geoinformatics",
+    "url": "/papers/4/geoinformatics-2020-21.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2020-21",
-    "subject": "Sensor and Instrumentation ",
-    "url": "/papers/3/sensor-and-instrumentation-2020-21.pdf"
+    "subject": "Hydraulics and Hydraulic Machines",
+    "url": "/papers/4/hydraulics-and-hydraulic-machines-2020-21.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2020-21",
-    "subject": "Technical Communication",
-    "url": "/papers/3/technical-communication-2020-21.pdf"
+    "subject": "Information Theory and Coding",
+    "url": "/papers/4/information-theory-and-coding-2020-21.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2020-21",
-    "subject": "Thermodynamics",
-    "url": "/papers/3/thermodynamics-2020-21.pdf"
+    "subject": "Introduction to Microprocessors",
+    "url": "/papers/4/introduction-to-micrroprocessors-2020-21.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
+    "year": "2020-21",
+    "subject": "Laser Systems and Applications",
+    "url": "/papers/4/laser-systems-and-applications-2020-21.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
+    "year": "2020-21",
+    "subject": "Manufacturing Science and Technology" ,
+    "url": "/papers/4/manufacturing-science-and-technology-2020-21.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
+    "year": "2020-21",
+    "subject": "Mathematics-III",
+    "url": "/papers/4/mathematics-iii-2020-21.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
+    "year": "2020-21",
+    "subject": "Measurement and Metrology",
+    "url": "/papers/4/measurement-and-metrology-2020-21.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
+    "year": "2020-21",
+    "subject": "Microprocessor and Microcontroller",
+    "url": "/papers/4/microprocessor-and-microcontroller-2020-21.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
+    "year": "2020-21",
+    "subject": "Operating System",
+    "url": "/papers/4/operating-system-2020-21.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
+    "year": "2020-21",
+    "subject": "Software Engineering",
+    "url": "/papers/4/software-engineering-2020-21.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
+    "year": "2020-21",
+    "subject": "Theory of Automata and Formal Languages",
+    "url": "/papers/4/theory-of-automata-and-formal-languages-2020-21.pdf"
   },
   {
     "university": "aktu",
@@ -2705,42 +2824,33 @@
     "semester": 4,
     "year": "2020-21",
     "subject": "Universal Human Values & Professional Ethics",
-    "url": "/papers/3/universal-human-values-professional-ethics-2020-21.pdf"
-  }
-,
-
-
-
+    "url": "/papers/4/universal-human-values-professional-ethics-2020-21.pdf"
+  },
 
 
 
 
 
   
-   {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 4,
-    "year": "2021-22",
-    "subject": "Analog Electronics",
-    "url": "/papers/3/analog-electronics-2021-22.pdf"
-  },
    
+
+  
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2021-22",
-    "subject": "Computer Organization Architecture",
-    "url": "/papers/3/computer-organization-architecture-2021-22.pdf"
+    "subject": "Applied Thermodynamics",
+    "url": "/papers/4/applied-thermodynamics-2021-22.pdf"
   },
+
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2021-22",
-    "subject": "Computer System and Security",
-    "url": "/papers/3/computer-system-security-2021-22.pdf"
+    "subject": "Data Structure and Algorithms",
+    "url": "/papers/4/data-structure-algorithms-2021-22.pdf"
   },
   {
     "university": "aktu",
@@ -2748,93 +2858,87 @@
     "semester": 4,
     "year": "2021-22",
     "subject": "Data Structures",
-    "url": "/papers/3/data-structures-2021-22.pdf"
+    "url": "/papers/4/data-structures-2021-22.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2021-22",
-    "subject": "Digital Electronics",
-    "url": "/papers/3/digital-electronics-2021-22.pdf"
-  },
-  
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 4,
-    "year": "2021-22",
-    "subject": "Discrete Structures & Theory of Logic",
-    "url": "/papers/3/discrete-structures-theory-of-logic-2021-22.pdf"
+    "subject": "Electrical Machines and Controls",
+    "url": "/papers/4/electrical-machines-and-controls-2021-22.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2021-22",
-    "subject": "Electronic Devices and Circuits",
-    "url": "/papers/3/electonic-devices-and-circuits-2021-22.pdf"
+    "subject": "Electromagnetic Field Theory",
+    "url": "/papers/4/electromagnetic-field-theory-2021-22.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2021-22",
-    "subject": "Electronics Engineering",
-    "url": "/papers/3/electronics-engineering-2021-22.pdf"
-  },
-
-
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 4,
-    "year": "2021-22",
-    "subject": "Energy Science and Engineering",
-    "url": "/papers/3/energy-science-and-engineering-2021-22.pdf"
+    "subject": "Electronic Measurement and Instrumentation",
+    "url": "/papers/4/electonic-measurement-and-instrumentation-2021-22.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2021-22",
-    "subject": "Engineering Mechanics",
-    "url": "/papers/3/engineering-mechanics-2021-22.pdf"
-  },
-
-
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 4,
-    "year": "2021-22",
-    "subject": "Fluid Mechanics",
-    "url": "/papers/3/fluid-mechanics-2021-22.pdf"
+    "subject": "Environment & Ecology",
+    "url": "/papers/4/environment-ecology-2021-22.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2021-22",
-    "subject": "Human Values and Professional Ethics",
-    "url": "/papers/3/human-values-professional-ethics-2021-22.pdf"
+    "subject": "Geoinformatics",
+    "url": "/papers/4/geoinformatics-2021-22.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2021-22",
-    "subject": "Material Science",
-    "url": "/papers/3/material-science-2021-22.pdf"
+    "subject": "Hydraulics and Hydraulic Machines",
+    "url": "/papers/4/hydraulics-and-hydraulic-machines-2021-22.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2021-22",
-    "subject": "Material Engineering",
-    "url": "/papers/3/material-engineering-2021-22.pdf"
-
+    "subject": "Information Theory and Coding",
+    "url": "/papers/4/information-theory-and-coding-2021-22.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
+    "year": "2021-22",
+    "subject": "Introduction to Microprocessors",
+    "url": "/papers/4/introduction-to-micrroprocessors-2021-22.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
+    "year": "2021-22",
+    "subject": "Laser Systems and Applications",
+    "url": "/papers/4/laser-systems-and-applications-2021-22.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
+    "year": "2021-22",
+    "subject": "Manufacturing Science and Technology" ,
+    "url": "/papers/4/manufacturing-science-and-technology-2021-22.pdf"
   },
   {
     "university": "aktu",
@@ -2842,55 +2946,47 @@
     "semester": 4,
     "year": "2021-22",
     "subject": "Mathematics-III",
-    "url": "/papers/3/mathematics-iii-2021-22.pdf"
+    "url": "/papers/4/mathematics-iii-2021-22.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2021-22",
-    "subject": "Mathematics-IV",
-    "url": "/papers/3/mathematics-iv-2021-22.pdf"
+    "subject": "Measurement and Metrology",
+    "url": "/papers/4/measurement-and-metrology-2021-22.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2021-22",
-    "subject": "Python Programming",
-    "url": "/papers/3/python-programming-2021-22.pdf"
+    "subject": "Microprocessor and Microcontroller",
+    "url": "/papers/4/microprocessor-and-microcontroller-2021-22.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2021-22",
-    "subject": "Sensor and Instrumentation ",
-    "url": "/papers/3/sensor-and-instrumentation-2021-22.pdf"
+    "subject": "Operating System",
+    "url": "/papers/4/operating-system-2021-22.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2021-22",
-    "subject": "Soft Skills",
-    "url": "/papers/3/soft-skills-2021-22.pdf"
+    "subject": "Software Engineering",
+    "url": "/papers/4/software-engineering-2021-22.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2021-22",
-    "subject": "Technical Communication",
-    "url": "/papers/3/technical-communication-2021-22.pdf"
-  },
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 4,
-    "year": "2021-22",
-    "subject": "Thermodynamics",
-    "url": "/papers/3/thermodynamics-2021-22.pdf"
+    "subject": "Theory of Automata and Formal Languages",
+    "url": "/papers/4/theory-of-automata-and-formal-languages-2021-22.pdf"
   },
   {
     "university": "aktu",
@@ -2898,39 +2994,31 @@
     "semester": 4,
     "year": "2021-22",
     "subject": "Universal Human Values & Professional Ethics",
-    "url": "/papers/3/universal-human-values-professional-ethics-2021-22.pdf"
-  }
-
-,
-
-
-
-
-
-   {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 4,
-    "year": "2022-23",
-    "subject": "Analog Electronics",
-    "url": "/papers/3/analog-electronics-2022-23.pdf"
+    "url": "/papers/4/universal-human-values-professional-ethics-2021-22.pdf"
   },
-   
+
+
+
+
+  
+
+  
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2022-23",
-    "subject": "Computer Organization Architecture",
-    "url": "/papers/3/computer-organization-architecture-2022-23.pdf"
+    "subject": "Applied Thermodynamics",
+    "url": "/papers/4/applied-thermodynamics-2022-23.pdf"
   },
+
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2022-23",
-    "subject": "Computer System and Security",
-    "url": "/papers/3/computer-system-security-2022-23.pdf"
+    "subject": "Data Structure and Algorithms",
+    "url": "/papers/4/data-structure-algorithms-2022-23.pdf"
   },
   {
     "university": "aktu",
@@ -2938,94 +3026,87 @@
     "semester": 4,
     "year": "2022-23",
     "subject": "Data Structures",
-    "url": "/papers/3/data-structures-2022-23.pdf"
+    "url": "/papers/4/data-structures-2022-23.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2022-23",
-    "subject": "Digital Electronics",
-    "url": "/papers/3/digital-electronics-2022-23.pdf"
-  },
-    {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 4,
-    "year": "2022-23",
-    "subject": "Digital System Design",
-    "url": "/papers/3/digital-system-design-2022-23.pdf"
-  },
-  
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 4,
-    "year": "2022-23",
-    "subject": "Discrete Structures & Theory of Logic",
-    "url": "/papers/3/discrete-structures-theory-of-logic-2022-23.pdf"
+    "subject": "Electrical Machines and Controls",
+    "url": "/papers/4/electrical-machines-and-controls-2022-23.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2022-23",
-    "subject": "Electronic Devices and Circuits",
-    "url": "/papers/3/electonic-devices-and-circuits-2022-23.pdf"
+    "subject": "Electromagnetic Field Theory",
+    "url": "/papers/4/electromagnetic-field-theory-2022-23.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2022-23",
-    "subject": "Electronics Engineering",
-    "url": "/papers/3/electronics-engineering-2022-23.pdf"
-  },
-
-
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 4,
-    "year": "2022-23",
-    "subject": "Energy Science and Engineering",
-    "url": "/papers/3/energy-science-and-engineering-2022-23.pdf"
+    "subject": "Electronic Measurement and Instrumentation",
+    "url": "/papers/4/electonic-measurement-and-instrumentation-2022-23.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2022-23",
-    "subject": "Engineering Mechanics",
-    "url": "/papers/3/engineering-mechanics-2022-23.pdf"
-  },
-
-
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 4,
-    "year": "2022-23",
-    "subject": "Fluid Mechanics",
-    "url": "/papers/3/fluid-mechanics-2022-23.pdf"
-  },
- 
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 4,
-    "year": "2022-23",
-    "subject": "Material Science",
-    "url": "/papers/3/material-science-2022-23.pdf"
+    "subject": "Environment & Ecology",
+    "url": "/papers/4/environment-ecology-2022-23.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2022-23",
-    "subject": "Material Engineering",
-    "url": "/papers/3/material-engineering-2022-23.pdf"
-
+    "subject": "Geoinformatics",
+    "url": "/papers/4/geoinformatics-2022-23.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
+    "year": "2022-23",
+    "subject": "Hydraulics and Hydraulic Machines",
+    "url": "/papers/4/hydraulics-and-hydraulic-machines-2022-23.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
+    "year": "2022-23",
+    "subject": "Information Theory and Coding",
+    "url": "/papers/4/information-theory-and-coding-2022-23.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
+    "year": "2022-23",
+    "subject": "Introduction to Microprocessors",
+    "url": "/papers/4/introduction-to-micrroprocessors-2022-23.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
+    "year": "2022-23",
+    "subject": "Laser Systems and Applications",
+    "url": "/papers/4/laser-systems-and-applications-2022-23.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
+    "year": "2022-23",
+    "subject": "Manufacturing Science and Technology" ,
+    "url": "/papers/4/manufacturing-science-and-technology-2022-23.pdf"
   },
   {
     "university": "aktu",
@@ -3033,55 +3114,47 @@
     "semester": 4,
     "year": "2022-23",
     "subject": "Mathematics-III",
-    "url": "/papers/3/mathematics-iii-2022-23.pdf"
+    "url": "/papers/4/mathematics-iii-2022-23.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2022-23",
-    "subject": "Mathematics-IV",
-    "url": "/papers/3/mathematics-iv-2022-23.pdf"
+    "subject": "Measurement and Metrology",
+    "url": "/papers/4/measurement-and-metrology-2022-23.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2022-23",
-    "subject": "Python Programming",
-    "url": "/papers/3/python-programming-2022-23.pdf"
+    "subject": "Microprocessor and Microcontroller",
+    "url": "/papers/4/microprocessor-and-microcontroller-2022-23.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2022-23",
-    "subject": "Sensor and Instrumentation ",
-    "url": "/papers/3/sensor-and-instrumentation-2022-23.pdf"
+    "subject": "Operating System",
+    "url": "/papers/4/operating-system-2022-23.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2022-23",
-    "subject": "Network Analysis and Synthesis",
-    "url": "/papers/3/network-analysis-and-synthesis-2022-23.pdf"
+    "subject": "Software Engineering",
+    "url": "/papers/4/software-engineering-2022-23.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2022-23",
-    "subject": "Technical Communication",
-    "url": "/papers/3/technical-communication-2022-23.pdf"
-  },
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 4,
-    "year": "2022-23",
-    "subject": "Thermodynamics",
-    "url": "/papers/3/thermodynamics-2022-23.pdf"
+    "subject": "Theory of Automata and Formal Languages",
+    "url": "/papers/4/theory-of-automata-and-formal-languages-2022-23.pdf"
   },
   {
     "university": "aktu",
@@ -3089,38 +3162,30 @@
     "semester": 4,
     "year": "2022-23",
     "subject": "Universal Human Values & Professional Ethics",
-    "url": "/papers/3/universal-human-values-professional-ethics-2022-23.pdf"
-  }
-
-,
-
+    "url": "/papers/4/universal-human-values-professional-ethics-2022-23.pdf"
+  },
 
 
   
-   {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 4,
-    "year": "2023-24",
-    "subject": "Analog Electronics",
-    "url": "/papers/3/analog-electronics-2023-24.pdf"
-  },
-   
+  
+
+  
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2023-24",
-    "subject": "Computer Organization Architecture",
-    "url": "/papers/3/computer-organization-architecture-2023-24.pdf"
+    "subject": "Applied Thermodynamics",
+    "url": "/papers/4/applied-thermodynamics-2023-24.pdf"
   },
+
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2023-24",
-    "subject": "Computer System and Security",
-    "url": "/papers/3/computer-system-security-2023-24.pdf"
+    "subject": "Data Structure and Algorithms",
+    "url": "/papers/4/data-structure-algorithms-2023-24.pdf"
   },
   {
     "university": "aktu",
@@ -3128,56 +3193,15 @@
     "semester": 4,
     "year": "2023-24",
     "subject": "Data Structures",
-    "url": "/papers/3/data-structures-2023-24.pdf"
+    "url": "/papers/4/data-structures-2023-24.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2023-24",
-    "subject": "Cyber Security",
-    "url": "/papers/3/cyber-security-2023-24.pdf"
-  },
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 4,
-    "year": "2023-24",
-    "subject": "Database Management and Systems",
-    "url": "/papers/3/database-management-systems-2023-24.pdf"
-  },
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 4,
-    "year": "2023-24",
-    "subject": "Digital System Design",
-    "url": "/papers/3/digital-system-design-2023-24.pdf"
-  },
-  
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 4,
-    "year": "2023-24",
-    "subject": "Discrete Structures & Theory of Logic",
-    "url": "/papers/3/discrete-structures-theory-of-logic-2023-24.pdf"
-  },
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 4,
-    "year": "2023-24",
-    "subject": "Electric and Hybrid Vehicles",
-    "url": "/papers/3/electric-and-hybrid-vehicles-2023-24.pdf"
-  },
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 4,
-    "year": "2023-24",
-    "subject": "Electrical Measurement and  Instrumentation",
-    "url": "/papers/3/electrical-measurement-instrumentation-2023-24.pdf"
+    "subject": "Electrical Machines and Controls",
+    "url": "/papers/4/electrical-machines-and-controls-2023-24.pdf"
   },
   {
     "university": "aktu",
@@ -3185,61 +3209,71 @@
     "semester": 4,
     "year": "2023-24",
     "subject": "Electromagnetic Field Theory",
-    "url": "/papers/3/electromagnetic-field-theory-2023-24.pdf"
+    "url": "/papers/4/electromagnetic-field-theory-2023-24.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2023-24",
-    "subject": "Electronics Engineering",
-    "url": "/papers/3/electronics-engineering-2023-24.pdf"
-  },
-
-
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 4,
-    "year": "2023-24",
-    "subject": "Energy Science and Engineering",
-    "url": "/papers/3/energy-science-and-engineering-2023-24.pdf"
+    "subject": "Electronic Measurement and Instrumentation",
+    "url": "/papers/4/electonic-measurement-and-instrumentation-2023-24.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2023-24",
-    "subject": "Engineering Mechanics",
-    "url": "/papers/3/engineering-mechanics-2023-24.pdf"
-  },
-
-
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 4,
-    "year": "2023-24",
-    "subject": "Fluid Mechanics",
-    "url": "/papers/3/fluid-mechanics-2023-24.pdf"
-  },
- 
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 4,
-    "year": "2023-24",
-    "subject": "Material Science",
-    "url": "/papers/3/material-science-2023-24.pdf"
+    "subject": "Environment & Ecology",
+    "url": "/papers/4/environment-ecology-2023-24.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2023-24",
-    "subject": "Material Engineering",
-    "url": "/papers/3/material-engineering-2023-24.pdf"
-
+    "subject": "Geoinformatics",
+    "url": "/papers/4/geoinformatics-2023-24.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
+    "year": "2023-24",
+    "subject": "Hydraulics and Hydraulic Machines",
+    "url": "/papers/4/hydraulics-and-hydraulic-machines-2023-24.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
+    "year": "2023-24",
+    "subject": "Information Theory and Coding",
+    "url": "/papers/4/information-theory-and-coding-2023-24.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
+    "year": "2023-24",
+    "subject": "Introduction to Microprocessors",
+    "url": "/papers/4/introduction-to-micrroprocessors-2023-24.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
+    "year": "2023-24",
+    "subject": "Laser Systems and Applications",
+    "url": "/papers/4/laser-systems-and-applications-2023-24.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
+    "year": "2023-24",
+    "subject": "Manufacturing Science and Technology" ,
+    "url": "/papers/4/manufacturing-science-and-technology-2023-24.pdf"
   },
   {
     "university": "aktu",
@@ -3247,63 +3281,47 @@
     "semester": 4,
     "year": "2023-24",
     "subject": "Mathematics-III",
-    "url": "/papers/3/mathematics-iii-2023-24.pdf"
+    "url": "/papers/4/mathematics-iii-2023-24.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2023-24",
-    "subject": "Mathematics-IV",
-    "url": "/papers/3/mathematics-iv-2023-24.pdf"
+    "subject": "Measurement and Metrology",
+    "url": "/papers/4/measurement-and-metrology-2023-24.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2023-24",
-    "subject": "Network Analysis and Synthesis",
-    "url": "/papers/3/network-analysis-and-synthesis-2023-24.pdf"
+    "subject": "Microprocessor and Microcontroller",
+    "url": "/papers/4/microprocessor-and-microcontroller-2023-24.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2023-24",
-    "subject": "Python Programming",
-    "url": "/papers/3/python-programming-2023-24.pdf"
+    "subject": "Operating System",
+    "url": "/papers/4/operating-system-2023-24.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2023-24",
-    "subject": "Sensor and Instrumentation ",
-    "url": "/papers/3/sensor-and-instrumentation-2023-24.pdf"
+    "subject": "Software Engineering",
+    "url": "/papers/4/software-engineering-2023-24.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2023-24",
-    "subject": "Surveying",
-    "url": "/papers/3/surveying-2023-24.pdf"
-  },
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 4,
-    "year": "2023-24",
-    "subject": "Technical Communication",
-    "url": "/papers/3/technical-communication-2023-24.pdf"
-  },
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 4,
-    "year": "2023-24",
-    "subject": "Thermodynamics",
-    "url": "/papers/3/thermodynamics-2023-24.pdf"
+    "subject": "Theory of Automata and Formal Languages",
+    "url": "/papers/4/theory-of-automata-and-formal-languages-2023-24.pdf"
   },
   {
     "university": "aktu",
@@ -3311,10 +3329,8 @@
     "semester": 4,
     "year": "2023-24",
     "subject": "Universal Human Values & Professional Ethics",
-    "url": "/papers/3/universal-human-values-professional-ethics-2023-24.pdf"
+    "url": "/papers/4/universal-human-values-professional-ethics-2023-24.pdf"
   }
-
-
 
 
 
