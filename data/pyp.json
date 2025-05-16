@@ -1748,6 +1748,14 @@
     "subject": "Digital Electronics",
     "url": "/papers/3/digital-electronics-2022-23.pdf"
   },
+    {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 3,
+    "year": "2022-23",
+    "subject": "Digital System Design",
+    "url": "/papers/3/digital-system-design-2022-23.pdf"
+  },
   
   {
     "university": "aktu",
@@ -1801,14 +1809,7 @@
     "subject": "Fluid Mechanics",
     "url": "/papers/3/fluid-mechanics-2022-23.pdf"
   },
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 3,
-    "year": "2022-23",
-    "subject": "Human Values and Professional Ethics",
-    "url": "/papers/3/human-values-professional-ethics-2022-23.pdf"
-  },
+ 
   {
     "university": "aktu",
     "course": "btech",
@@ -1863,8 +1864,8 @@
     "course": "btech",
     "semester": 3,
     "year": "2022-23",
-    "subject": "Soft Skills",
-    "url": "/papers/3/soft-skills-2022-23.pdf"
+    "subject": "Network Analysis and Synthesis",
+    "url": "/papers/3/network-analysis-and-synthesis-2022-23.pdf"
   },
   {
     "university": "aktu",
