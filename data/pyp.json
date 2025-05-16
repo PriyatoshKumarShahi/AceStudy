@@ -39,14 +39,7 @@
     "subject": "Basic Electronics Engineering",
     "url": "/papers/1/basic-electronics-engineering-2017-18.pdf"
   },
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 1,
-    "year": "2017-18",
-    "subject": "Fundamentals of Mechanical Engineering",
-    "url": "/papers/1/fundamentals-of-mechanical-engineering-2017-18.pdf"
-  },
+  
   {
     "university": "aktu",
     "course": "btech",
@@ -56,22 +49,11 @@
     "url": "/papers/1/programming-for-problem-solving-2017-18.pdf"
   },
 
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 1,
-    "year": "2017-18",
-    "subject": "Soft Skills",
-    "url": "/papers/1/soft-skills-2017-18.pdf"
-  },
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 1,
-    "year": "2017-18",
-    "subject": "Environmental Studies",
-    "url": "/papers/1/environmental-studies-2017-18.pdf"
-  },
+ 
+
+
+
+ 
 
   {
     "university": "aktu",
@@ -105,14 +87,7 @@
     "subject": "Basic Electrical Engineering",
     "url": "/papers/1/basic-electrical-engineering-2018-19.pdf"
   },
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 1,
-    "year": "2018-19",
-    "subject": "Basic Electronics Engineering",
-    "url": "/papers/1/basic-electronics-engineering-2018-19.pdf"
-  },
+
   {
     "university": "aktu",
     "course": "btech",
@@ -129,21 +104,220 @@
     "subject": "Programming for Problem Solving",
     "url": "/papers/1/programming-for-problem-solving-2017-18.pdf"
   },
+  
+ 
+
+
+
+
+
+
+
   {
     "university": "aktu",
     "course": "btech",
     "semester": 1,
-    "year": "2018-10",
-    "subject": "Soft Skills",
-    "url": "/papers/1/soft-skills-2018-19.pdf"
+    "year": "2019-20",
+    "subject": "Engineering Mathematics-I",
+    "url": "/papers/1/engineering-mathematics-i-2019-20.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 1,
-    "year": "2018-19",
-    "subject": "Environmental Studies",
-    "url": "/papers/1/environmental-studies-2018-19.pdf"
+    "year": "2019-20",
+    "subject": "Engineering Chemistry",
+    "url": "/papers/1/engineering-chemistry-2019-20.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 1,
+    "year": "2019-20",
+    "subject": "Engineering Physics",
+    "url": "/papers/1/engineering-physics-2019-20.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 1,
+    "year": "2019-20",
+    "subject": "Basic Electrical Engineering",
+    "url": "/papers/1/basic-electrical-engineering-2019-20.pdf"
+  },
+ 
+ 
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 1,
+    "year": "2019-20",
+    "subject": "Programming for Problem Solving",
+    "url": "/papers/1/programming-for-problem-solving-2019-20.pdf"
+  },
+ 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 1,
+    "year": "2020-21",
+    "subject": "Engineering Mathematics-I",
+    "url": "/papers/1/engineering-mathematics-i-2020-21.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 1,
+    "year": "2020-21",
+    "subject": "Engineering Chemistry",
+    "url": "/papers/1/engineering-chemistry-2020-21.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 1,
+    "year": "2020-21",
+    "subject": "Engineering Physics",
+    "url": "/papers/1/engineering-physics-2020-21.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 1,
+    "year": "2020-21",
+    "subject": "Basic Electrical Engineering",
+    "url": "/papers/1/basic-electrical-engineering-2020-21.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 1,
+    "year": "2020-21",
+    "subject": "Basic Electronics Engineering",
+    "url": "/papers/1/basic-electronics-engineering-2020-21.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 1,
+    "year": "2020-21",
+    "subject": "Fundamentals of Mechanical Engineering",
+    "url": "/papers/1/fundamentals-of-mechanical-engineering-2020-21.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 1,
+    "year": "2020-21",
+    "subject": "Programming for Problem Solving",
+    "url": "/papers/1/programming-for-problem-solving-2020-21.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 1,
+    "year": "2020-21",
+    "subject": "Soft Skills",
+    "url": "/papers/1/soft-skills-2020-21.pdf"
+  },
+  
+
+
+
+
+
+
+
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 1,
+    "year": "2021-22",
+    "subject": "Engineering Mathematics-I",
+    "url": "/papers/1/engineering-mathematics-i-2021-22.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 1,
+    "year": "2021-22",
+    "subject": "Engineering Chemistry",
+    "url": "/papers/1/engineering-chemistry-2021-22.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 1,
+    "year": "2021-22",
+    "subject": "Engineering Physics",
+    "url": "/papers/1/engineering-physics-2021-22.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 1,
+    "year": "2021-22",
+    "subject": "Basic Electrical Engineering",
+    "url": "/papers/1/basic-electrical-engineering-2021-22.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 1,
+    "year": "2021-22",
+    "subject": "Basic Electronics Engineering",
+    "url": "/papers/1/basic-electronics-engineering-2021-22.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 1,
+    "year": "2021-22",
+    "subject": "Fundamentals of Mechanical Engineering",
+    "url": "/papers/1/fundamentals-of-mechanical-engineering-2021-22.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 1,
+    "year": "2021-22",
+    "subject": "Programming for Problem Solving",
+    "url": "/papers/1/programming-for-problem-solving-2021-22.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 1,
+    "year": "2021-22",
+    "subject": "Soft Skills",
+    "url": "/papers/1/soft-skills-2021-22.pdf"
   }
+  
+
+
+
+
+
+
+
 
 ]
