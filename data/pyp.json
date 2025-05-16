@@ -1243,8 +1243,8 @@
     "course": "btech",
     "semester": 3,
     "year": "2019-20",
-    "subject": "Building Material Construction",
-    "url": "/papers/3/building-material-construction-2019-20.pdf"
+    "subject": "Computer System and Security",
+    "url": "/papers/3/computer-system-security-2019-20.pdf"
   },
   {
     "university": "aktu",
@@ -1267,8 +1267,8 @@
     "course": "btech",
     "semester": 3,
     "year": "2019-20",
-    "subject": "Digital Logic Design",
-    "url": "/papers/3/digital-logic-design-2019-20.pdf"
+    "subject": "Digital System Design",
+    "url": "/papers/3/digital-system-design-2019-20.pdf"
   },
   {
     "university": "aktu",
@@ -1291,8 +1291,8 @@
     "course": "btech",
     "semester": 3,
     "year": "2019-20",
-    "subject": "Environment & Ecology",
-    "url": "/papers/3/environment-ecology-2019-20.pdf"
+    "subject": "Engineering Mechanics",
+    "url": "/papers/3/engineering-mechanics-2019-20.pdf"
   },
   {
     "university": "aktu",
@@ -1315,24 +1315,17 @@
     "course": "btech",
     "semester": 3,
     "year": "2019-20",
-    "subject": "Manufacturing Science",
-    "url": "/papers/3/manufacturing-science-2019-20.pdf"
+    "subject": "Material Engineering",
+    "url": "/papers/3/material-engineering-2019-20.pdf"
   },
+  
   {
     "university": "aktu",
     "course": "btech",
     "semester": 3,
     "year": "2019-20",
-    "subject": "Mechanics of Solids",
-    "url": "/papers/3/mechanics-of-solids-2019-20.pdf"
-  },
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 3,
-    "year": "2019-20",
-    "subject": "Mathematics-III",
-    "url": "/papers/3/mathematics-iii-2019-20.pdf"
+    "subject": "Mathematics-IV",
+    "url": "/papers/3/mathematics-iv-2019-20.pdf"
   },
   {
     "university": "aktu",
@@ -1347,8 +1340,8 @@
     "course": "btech",
     "semester": 3,
     "year": "2019-20",
-    "subject": "Signal and System",
-    "url": "/papers/3/signal-and-system-2019-20.pdf"
+    "subject": "Python Programming",
+    "url": "/papers/3/python-programming-2019-20.pdf"
   },
   {
     "university": "aktu",
@@ -1357,6 +1350,14 @@
     "year": "2019-20",
     "subject": "Surveying",
     "url": "/papers/3/surveying-2019-20.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 3,
+    "year": "2019-20",
+    "subject": "Technical Communication",
+    "url": "/papers/3/technical-communication-2019-20.pdf"
   },
   {
     "university": "aktu",
