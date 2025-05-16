@@ -2633,7 +2633,7 @@
     "course": "btech",
     "semester": 4,
     "year": "2021-22",
-    "subject": "Introduction to SOft Computing",
+    "subject": "Introduction to Soft Computing",
     "url": "/papers/4/introduction-to-soft-computing-2021-22.pdf"
   },
  
@@ -2876,7 +2876,7 @@
     "course": "btech",
     "semester": 4,
     "year": "2022-23",
-    "subject": "Introduction to SOft Computing",
+    "subject": "Introduction to Soft Computing",
     "url": "/papers/4/introduction-to-soft-computing-2022-23.pdf"
   },
  
@@ -3037,6 +3037,14 @@
     "course": "btech",
     "semester": 4,
     "year": "2023-24",
+    "subject": "Automation and Robotics",
+    "url": "/papers/4/automation-and-robotics-2023-24.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
+    "year": "2023-24",
     "subject": "Communication Engineering",
     "url": "/papers/4/communication-engineering-2023-24.pdf"
   },
@@ -3045,8 +3053,8 @@
     "course": "btech",
     "semester": 4,
     "year": "2023-24",
-    "subject": "Computer System and Security",
-    "url": "/papers/4/computer-system-security-2023-24.pdf"
+    "subject": "Cyber Security",
+    "url": "/papers/4/cyber-security-2023-24.pdf"
   },
 
   {
@@ -3062,8 +3070,8 @@
     "course": "btech",
     "semester": 4,
     "year": "2023-24",
-    "subject": "Data Structures",
-    "url": "/papers/4/data-structures-2023-24.pdf"
+    "subject": "Design and Analysis of Algorithm",
+    "url": "/papers/4/design-and-analysis-of-algorithm-2023-24.pdf"
   },
   {
     "university": "aktu",
@@ -3078,17 +3086,18 @@
     "course": "btech",
     "semester": 4,
     "year": "2023-24",
-    "subject": "Electrical Machines and Controls",
-    "url": "/papers/4/electrical-machines-and-controls-2023-24.pdf"
+    "subject": "Electric and Hybrid Vehicles",
+    "url": "/papers/4/electric-and-hybrid-vehicles-2023-24.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2023-24",
-    "subject": "Electromagnetic Field Theory",
-    "url": "/papers/4/electromagnetic-field-theory-2023-24.pdf"
+    "subject": "Electrical Machines and Controls",
+    "url": "/papers/4/electrical-machines-and-controls-2023-24.pdf"
   },
+
   {
     "university": "aktu",
     "course": "btech",
@@ -3105,50 +3114,15 @@
     "subject": "Energy Science and Engineering",
     "url": "/papers/4/energy-science-and-engineering-2023-24.pdf"
   },
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 4,
-    "year": "2023-24",
-    "subject": "Engineering Mechanics",
-    "url": "/papers/4/engineering-mechanics-2023-24.pdf"
-  },
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 4,
-    "year": "2023-24",
-    "subject": "Electronic Measurement and Instrumentation",
-    "url": "/papers/4/electonic-measurement-and-instrumentation-2023-24.pdf"
-  },
+ 
+  
 
 
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 4,
-    "year": "2023-24",
-    "subject": "Environment & Ecology",
-    "url": "/papers/4/environment-ecology-2023-24.pdf"
-  },
  
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 4,
-    "year": "2023-24",
-    "subject": "Hydraulics and Hydraulic Machines",
-    "url": "/papers/4/hydraulics-and-hydraulic-machines-2023-24.pdf"
-  },
  
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 4,
-    "year": "2023-24",
-    "subject": "Introduction to SOft Computing",
-    "url": "/papers/4/introduction-to-soft-computing-2023-24.pdf"
-  },
+ 
+ 
+  
  
   {
     "university": "aktu",
@@ -3191,14 +3165,7 @@
     "url": "/papers/4/mathematics-iv-2023-24.pdf"
   },
  
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 4,
-    "year": "2023-24",
-    "subject": "Microprocessor",
-    "url": "/papers/4/microprocessor-2023-24.pdf"
-  },
+
   {
     "university": "aktu",
     "course": "btech",
@@ -3212,17 +3179,18 @@
     "course": "btech",
     "semester": 4,
     "year": "2023-24",
-    "subject": "Operating System",
-    "url": "/papers/4/operating-system-2023-24.pdf"
+    "subject": "Object Oriented Programming Java",
+    "url": "/papers/4/object-oriented-programming-java-2023-24.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2023-24",
-    "subject": "Python Programming",
-    "url": "/papers/4/python-programming-2023-24.pdf"
+    "subject": "Operating System",
+    "url": "/papers/4/operating-system-2023-24.pdf"
   },
+  
   {
     "university": "aktu",
     "course": "btech",
