@@ -372,6 +372,28 @@ h1 {
   100% { opacity: 0.6; filter: blur(20px); }
 }
 
+@media(max-width:768px){
+  .gradient-text::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  filter: blur(20px);
+  opacity: 0.6;
+  background: linear-gradient(90deg, #9659ff, #992ad0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+@keyframes shimmer {
+  0% { opacity: 0.6; filter: blur(20px); }
+  50% { opacity: 0.9; filter: blur(30px); }
+  100% { opacity: 0.6; filter: blur(20px); }
+}
+}
+
 .gradient-text::after {
   animation: shimmer 4s infinite ease-in-out;
 }
@@ -983,7 +1005,7 @@ margin: 0 auto;
 .feature-card {
   background: var(--featured-card-bg);
   border-radius: 12px;
-  width: 400px;
+  width: 350px;
   padding: 24px;
   text-align: left;
   border: 1px solid rgba(255, 255, 255, 0.05);
