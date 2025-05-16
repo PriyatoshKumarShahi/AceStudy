@@ -1348,8 +1348,8 @@
     "course": "btech",
     "semester": 3,
     "year": "2019-20",
-    "subject": "Surveying",
-    "url": "/papers/3/surveying-2019-20.pdf"
+    "subject": "Sensor and Instrumentation ",
+    "url": "/papers/3/sensor-and-instrumentation-2019-20.pdf"
   },
   {
     "university": "aktu",
@@ -1389,8 +1389,8 @@
     "course": "btech",
     "semester": 3,
     "year": "2020-21",
-    "subject": "Building Material Construction",
-    "url": "/papers/3/building-material-construction-2020-21.pdf"
+    "subject": "Computer System and Security",
+    "url": "/papers/3/computer-system-security-2020-21.pdf"
   },
   {
     "university": "aktu",
@@ -1413,8 +1413,8 @@
     "course": "btech",
     "semester": 3,
     "year": "2020-21",
-    "subject": "Digital Logic Design",
-    "url": "/papers/3/digital-logic-design-2020-21.pdf"
+    "subject": "Digital System Design",
+    "url": "/papers/3/digital-system-design-2020-21.pdf"
   },
   {
     "university": "aktu",
@@ -1432,14 +1432,7 @@
     "subject": "Electronic Devices and Circuits",
     "url": "/papers/3/electonic-devices-and-circuits-2020-21.pdf"
   },
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 3,
-    "year": "2020-21",
-    "subject": "Environment & Ecology",
-    "url": "/papers/3/environment-ecology-2020-21.pdf"
-  },
+ 
   {
     "university": "aktu",
     "course": "btech",
@@ -1448,37 +1441,23 @@
     "subject": "Fluid Mechanics",
     "url": "/papers/3/fluid-mechanics-2020-21.pdf"
   },
+ 
   {
     "university": "aktu",
     "course": "btech",
     "semester": 3,
     "year": "2020-21",
-    "subject": "Laser Systems and Applications",
-    "url": "/papers/3/laser-systems-and-applications-2020-21.pdf"
+    "subject": "Material Engineering",
+    "url": "/papers/3/material-engineering-2020-21.pdf"
   },
+ 
   {
     "university": "aktu",
     "course": "btech",
     "semester": 3,
     "year": "2020-21",
-    "subject": "Manufacturing Science",
-    "url": "/papers/3/manufacturing-science-2020-21.pdf"
-  },
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 3,
-    "year": "2020-21",
-    "subject": "Mechanics of Solids",
-    "url": "/papers/3/mechanics-of-solids-2020-21.pdf"
-  },
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 3,
-    "year": "2020-21",
-    "subject": "Mathematics-III",
-    "url": "/papers/3/mathematics-iii-2020-21.pdf"
+    "subject": "Mathematics-IV",
+    "url": "/papers/3/mathematics-iv-2020-21.pdf"
   },
   {
     "university": "aktu",
@@ -1493,16 +1472,24 @@
     "course": "btech",
     "semester": 3,
     "year": "2020-21",
-    "subject": "Signal and System",
-    "url": "/papers/3/signal-and-system-2020-21.pdf"
+    "subject": "Python Programming",
+    "url": "/papers/3/python-programming-2020-21.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 3,
     "year": "2020-21",
-    "subject": "Surveying",
-    "url": "/papers/3/surveying-2020-21.pdf"
+    "subject": "Sensor and Instrumentation ",
+    "url": "/papers/3/sensor-and-instrumentation-2020-21.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 3,
+    "year": "2020-21",
+    "subject": "Technical Communication",
+    "url": "/papers/3/technical-communication-2020-21.pdf"
   },
   {
     "university": "aktu",
