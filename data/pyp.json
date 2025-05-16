@@ -1935,8 +1935,24 @@
     "course": "btech",
     "semester": 3,
     "year": "2023-24",
-    "subject": "Digital Electronics",
-    "url": "/papers/3/digital-electronics-2023-24.pdf"
+    "subject": "Cyber Security",
+    "url": "/papers/3/cyber-security-2023-24.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 3,
+    "year": "2023-24",
+    "subject": "Database Management and Systems",
+    "url": "/papers/3/database-management-systems-2023-24.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 3,
+    "year": "2023-24",
+    "subject": "Digital System Design",
+    "url": "/papers/3/digital-system-design-2023-24.pdf"
   },
   
   {
@@ -1952,8 +1968,24 @@
     "course": "btech",
     "semester": 3,
     "year": "2023-24",
-    "subject": "Electronic Devices and Circuits",
-    "url": "/papers/3/electonic-devices-and-circuits-2023-24.pdf"
+    "subject": "Electric and Hybrid Vehicles",
+    "url": "/papers/3/electric-and-hybrid-vehicles-2023-24.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 3,
+    "year": "2023-24",
+    "subject": "Electrical Measurement and  Instrumentation",
+    "url": "/papers/3/electrical-measurement-instrumentation-2023-24.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 3,
+    "year": "2023-24",
+    "subject": "Electromagnetic Field Theory",
+    "url": "/papers/3/electromagnetic-field-theory-2023-24.pdf"
   },
   {
     "university": "aktu",
@@ -1991,14 +2023,7 @@
     "subject": "Fluid Mechanics",
     "url": "/papers/3/fluid-mechanics-2023-24.pdf"
   },
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 3,
-    "year": "2023-24",
-    "subject": "Human Values and Professional Ethics",
-    "url": "/papers/3/human-values-professional-ethics-2023-24.pdf"
-  },
+ 
   {
     "university": "aktu",
     "course": "btech",
@@ -2037,6 +2062,14 @@
     "course": "btech",
     "semester": 3,
     "year": "2023-24",
+    "subject": "Network Analysis and Synthesis",
+    "url": "/papers/3/network-analysis-and-synthesis-2023-24.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 3,
+    "year": "2023-24",
     "subject": "Python Programming",
     "url": "/papers/3/python-programming-2023-24.pdf"
   },
@@ -2053,8 +2086,8 @@
     "course": "btech",
     "semester": 3,
     "year": "2023-24",
-    "subject": "Soft Skills",
-    "url": "/papers/3/soft-skills-2023-24.pdf"
+    "subject": "Surveying",
+    "url": "/papers/3/surveying-2023-24.pdf"
   },
   {
     "university": "aktu",
