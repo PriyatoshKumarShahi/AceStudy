@@ -2598,7 +2598,7 @@
     "semester": 4,
     "year": "2021-22",
     "subject": "Engineering Mechanics",
-    "url": "/papers/4/energy-mechanics-2021-22.pdf"
+    "url": "/papers/4/engineering-mechanics-2021-22.pdf"
   },
   {
     "university": "aktu",
@@ -2643,7 +2643,7 @@
     "semester": 4,
     "year": "2021-22",
     "subject": "Manufacturing Processes" ,
-    "url": "/papers/4/manufacturing-sprocesses-2021-22.pdf"
+    "url": "/papers/4/manufacturing-processes-2021-22.pdf"
   },
   {
     "university": "aktu",
@@ -2764,7 +2764,24 @@
 
   
 
+
   
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
+    "year": "2022-23",
+    "subject": "Analog Circuits",
+    "url": "/papers/4/analog-circuits-2022-23.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
+    "year": "2022-23",
+    "subject": "Analog Electronics",
+    "url": "/papers/4/analog-electronics-2022-23.pdf"
+  },
   {
     "university": "aktu",
     "course": "btech",
@@ -2772,6 +2789,22 @@
     "year": "2022-23",
     "subject": "Applied Thermodynamics",
     "url": "/papers/4/applied-thermodynamics-2022-23.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
+    "year": "2022-23",
+    "subject": "Communication Engineering",
+    "url": "/papers/4/communication-engineering-2022-23.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
+    "year": "2022-23",
+    "subject": "Computer System and Security",
+    "url": "/papers/4/computer-system-security-2022-23.pdf"
   },
 
   {
@@ -2782,13 +2815,14 @@
     "subject": "Data Structure and Algorithms",
     "url": "/papers/4/data-structure-algorithms-2022-23.pdf"
   },
+ 
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2022-23",
-    "subject": "Data Structures",
-    "url": "/papers/4/data-structures-2022-23.pdf"
+    "subject": "Digital Electronics",
+    "url": "/papers/4/digital-electronics-2022-23.pdf"
   },
   {
     "university": "aktu",
@@ -2798,38 +2832,36 @@
     "subject": "Electrical Machines and Controls",
     "url": "/papers/4/electrical-machines-and-controls-2022-23.pdf"
   },
+
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2022-23",
-    "subject": "Electromagnetic Field Theory",
-    "url": "/papers/4/electromagnetic-field-theory-2022-23.pdf"
+    "subject": "Electronics Engineering",
+    "url": "/papers/4/electronics-engineering-2022-23.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2022-23",
-    "subject": "Electronic Measurement and Instrumentation",
-    "url": "/papers/4/electonic-measurement-and-instrumentation-2022-23.pdf"
+    "subject": "Energy Science and Engineering",
+    "url": "/papers/4/energy-science-and-engineering-2022-23.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2022-23",
-    "subject": "Environment & Ecology",
-    "url": "/papers/4/environment-ecology-2022-23.pdf"
+    "subject": "Engineering Mechanics",
+    "url": "/papers/4/engineering-mechanics-2022-23.pdf"
   },
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 4,
-    "year": "2022-23",
-    "subject": "Geoinformatics",
-    "url": "/papers/4/geoinformatics-2022-23.pdf"
-  },
+ 
+
+
+ 
+ 
   {
     "university": "aktu",
     "course": "btech",
@@ -2838,37 +2870,39 @@
     "subject": "Hydraulics and Hydraulic Machines",
     "url": "/papers/4/hydraulics-and-hydraulic-machines-2022-23.pdf"
   },
+ 
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2022-23",
-    "subject": "Information Theory and Coding",
-    "url": "/papers/4/information-theory-and-coding-2022-23.pdf"
+    "subject": "Introduction to SOft Computing",
+    "url": "/papers/4/introduction-to-soft-computing-2022-23.pdf"
+  },
+ 
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
+    "year": "2022-23",
+    "subject": "Manufacturing Processes" ,
+    "url": "/papers/4/manufacturing-processes-2022-23.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2022-23",
-    "subject": "Introduction to Microprocessors",
-    "url": "/papers/4/introduction-to-micrroprocessors-2022-23.pdf"
+    "subject": "Material Science" ,
+    "url": "/papers/4/material-science-2022-23.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2022-23",
-    "subject": "Laser Systems and Applications",
-    "url": "/papers/4/laser-systems-and-applications-2022-23.pdf"
-  },
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 4,
-    "year": "2022-23",
-    "subject": "Manufacturing Science and Technology" ,
-    "url": "/papers/4/manufacturing-science-and-technology-2022-23.pdf"
+    "subject": "Material Testing and Construction Practices" ,
+    "url": "/papers/4/material-testing-and-construction-practices-2022-23.pdf"
   },
   {
     "university": "aktu",
@@ -2883,16 +2917,25 @@
     "course": "btech",
     "semester": 4,
     "year": "2022-23",
-    "subject": "Measurement and Metrology",
-    "url": "/papers/4/measurement-and-metrology-2022-23.pdf"
+    "subject": "Mathematics-IV",
+    "url": "/papers/4/mathematics-iv-2022-23.pdf"
+  },
+ 
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
+    "year": "2022-23",
+    "subject": "Microprocessor",
+    "url": "/papers/4/microprocessor-2022-23.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2022-23",
-    "subject": "Microprocessor and Microcontroller",
-    "url": "/papers/4/microprocessor-and-microcontroller-2022-23.pdf"
+    "subject": "Network Analysis and Synthesis",
+    "url": "/papers/4/network-analysis-and-synthesis-2022-23.pdf"
   },
   {
     "university": "aktu",
@@ -2907,8 +2950,32 @@
     "course": "btech",
     "semester": 4,
     "year": "2022-23",
-    "subject": "Software Engineering",
-    "url": "/papers/4/software-engineering-2022-23.pdf"
+    "subject": "Python Programming",
+    "url": "/papers/4/python-programming-2022-23.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
+    "year": "2022-23",
+    "subject": "Sensor and Instrumentation",
+    "url": "/papers/4/sensor-and-instrumentation-2022-23.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
+    "year": "2022-23",
+    "subject": "Signal System",
+    "url": "/papers/4/signal-system-2022-23.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
+    "year": "2022-23",
+    "subject": "Technical Communication",
+    "url": "/papers/4/technical-communication-2022-23.pdf"
   },
   {
     "university": "aktu",
@@ -2926,6 +2993,15 @@
     "subject": "Universal Human Values & Professional Ethics",
     "url": "/papers/4/universal-human-values-professional-ethics-2022-23.pdf"
   },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
+    "year": "2022-23",
+    "subject": "Web Designing",
+    "url": "/papers/4/web-designing-2022-23.pdf"
+  },
+
 
 
   
@@ -2937,8 +3013,40 @@
     "course": "btech",
     "semester": 4,
     "year": "2023-24",
+    "subject": "Analog Circuits",
+    "url": "/papers/4/analog-circuits-2023-24.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
+    "year": "2023-24",
+    "subject": "Analog Electronics",
+    "url": "/papers/4/analog-electronics-2023-24.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
+    "year": "2023-24",
     "subject": "Applied Thermodynamics",
     "url": "/papers/4/applied-thermodynamics-2023-24.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
+    "year": "2023-24",
+    "subject": "Communication Engineering",
+    "url": "/papers/4/communication-engineering-2023-24.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
+    "year": "2023-24",
+    "subject": "Computer System and Security",
+    "url": "/papers/4/computer-system-security-2023-24.pdf"
   },
 
   {
@@ -2962,6 +3070,14 @@
     "course": "btech",
     "semester": 4,
     "year": "2023-24",
+    "subject": "Digital Electronics",
+    "url": "/papers/4/digital-electronics-2023-24.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
+    "year": "2023-24",
     "subject": "Electrical Machines and Controls",
     "url": "/papers/4/electrical-machines-and-controls-2023-24.pdf"
   },
@@ -2978,9 +3094,35 @@
     "course": "btech",
     "semester": 4,
     "year": "2023-24",
+    "subject": "Electronics Engineering",
+    "url": "/papers/4/electronics-engineering-2023-24.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
+    "year": "2023-24",
+    "subject": "Energy Science and Engineering",
+    "url": "/papers/4/energy-science-and-engineering-2023-24.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
+    "year": "2023-24",
+    "subject": "Engineering Mechanics",
+    "url": "/papers/4/engineering-mechanics-2023-24.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
+    "year": "2023-24",
     "subject": "Electronic Measurement and Instrumentation",
     "url": "/papers/4/electonic-measurement-and-instrumentation-2023-24.pdf"
   },
+
+
   {
     "university": "aktu",
     "course": "btech",
@@ -2989,14 +3131,7 @@
     "subject": "Environment & Ecology",
     "url": "/papers/4/environment-ecology-2023-24.pdf"
   },
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 4,
-    "year": "2023-24",
-    "subject": "Geoinformatics",
-    "url": "/papers/4/geoinformatics-2023-24.pdf"
-  },
+ 
   {
     "university": "aktu",
     "course": "btech",
@@ -3005,37 +3140,39 @@
     "subject": "Hydraulics and Hydraulic Machines",
     "url": "/papers/4/hydraulics-and-hydraulic-machines-2023-24.pdf"
   },
+ 
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2023-24",
-    "subject": "Information Theory and Coding",
-    "url": "/papers/4/information-theory-and-coding-2023-24.pdf"
+    "subject": "Introduction to SOft Computing",
+    "url": "/papers/4/introduction-to-soft-computing-2023-24.pdf"
+  },
+ 
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
+    "year": "2023-24",
+    "subject": "Manufacturing Processes" ,
+    "url": "/papers/4/manufacturing-processes-2023-24.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2023-24",
-    "subject": "Introduction to Microprocessors",
-    "url": "/papers/4/introduction-to-micrroprocessors-2023-24.pdf"
+    "subject": "Material Science" ,
+    "url": "/papers/4/material-science-2023-24.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2023-24",
-    "subject": "Laser Systems and Applications",
-    "url": "/papers/4/laser-systems-and-applications-2023-24.pdf"
-  },
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 4,
-    "year": "2023-24",
-    "subject": "Manufacturing Science and Technology" ,
-    "url": "/papers/4/manufacturing-science-and-technology-2023-24.pdf"
+    "subject": "Material Testing and Construction Practices" ,
+    "url": "/papers/4/material-testing-and-construction-practices-2023-24.pdf"
   },
   {
     "university": "aktu",
@@ -3050,16 +3187,25 @@
     "course": "btech",
     "semester": 4,
     "year": "2023-24",
-    "subject": "Measurement and Metrology",
-    "url": "/papers/4/measurement-and-metrology-2023-24.pdf"
+    "subject": "Mathematics-IV",
+    "url": "/papers/4/mathematics-iv-2023-24.pdf"
+  },
+ 
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
+    "year": "2023-24",
+    "subject": "Microprocessor",
+    "url": "/papers/4/microprocessor-2023-24.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 4,
     "year": "2023-24",
-    "subject": "Microprocessor and Microcontroller",
-    "url": "/papers/4/microprocessor-and-microcontroller-2023-24.pdf"
+    "subject": "Network Analysis and Synthesis",
+    "url": "/papers/4/network-analysis-and-synthesis-2023-24.pdf"
   },
   {
     "university": "aktu",
@@ -3074,8 +3220,32 @@
     "course": "btech",
     "semester": 4,
     "year": "2023-24",
-    "subject": "Software Engineering",
-    "url": "/papers/4/software-engineering-2023-24.pdf"
+    "subject": "Python Programming",
+    "url": "/papers/4/python-programming-2023-24.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
+    "year": "2023-24",
+    "subject": "Sensor and Instrumentation",
+    "url": "/papers/4/sensor-and-instrumentation-2023-24.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
+    "year": "2023-24",
+    "subject": "Signal System",
+    "url": "/papers/4/signal-system-2023-24.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
+    "year": "2023-24",
+    "subject": "Technical Communication",
+    "url": "/papers/4/technical-communication-2023-24.pdf"
   },
   {
     "university": "aktu",
@@ -3092,7 +3262,16 @@
     "year": "2023-24",
     "subject": "Universal Human Values & Professional Ethics",
     "url": "/papers/4/universal-human-values-professional-ethics-2023-24.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 4,
+    "year": "2023-24",
+    "subject": "Web Designing",
+    "url": "/papers/4/web-designing-2023-24.pdf"
   }
+
 
 
 
