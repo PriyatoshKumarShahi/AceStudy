@@ -3480,12 +3480,13 @@
 
   
  
+ 
   {
     "university": "aktu",
     "course": "btech",
     "semester": 5,
     "year": "2018-19",
-    "subject": "ANTENNA AND WAVE PROPAGATION REC 051",
+    "subject": "Antenna and Wave Propagation",
     "url": "/papers/5/antenna-and-wave-propagation-2018-19.pdf"
   },
   {
@@ -3493,7 +3494,7 @@
     "course": "btech",
     "semester": 5,
     "year": "2018-19",
-    "subject": "CONCRETE TECHNOLOGY RCE 052",
+    "subject": "Concrete Technology",
     "url": "/papers/5/concrete-technology-2018-19.pdf"
   },
   {
@@ -3501,7 +3502,7 @@
     "course": "btech",
     "semester": 5,
     "year": "2018-19",
-    "subject": "CYBER SECURITY RUC 501",
+    "subject": "Cyber Security",
     "url": "/papers/5/cyber-security-2018-19.pdf"
   },
   {
@@ -3509,7 +3510,7 @@
     "course": "btech",
     "semester": 5,
     "year": "2018-19",
-    "subject": "DATA BASE MANAGEMENT SYSTEM RCS 501",
+    "subject": "Data Base Management System",
     "url": "/papers/5/data-base-management-system-2018-19.pdf"
   },
   {
@@ -3517,7 +3518,7 @@
     "course": "btech",
     "semester": 5,
     "year": "2018-19",
-    "subject": "DESIGN ANALYSIS OF ALGORITHMS RCS 502",
+    "subject": "Design Analysis of Algorithms",
     "url": "/papers/5/design-analysis-of-algorithms-2018-19.pdf"
   },
   {
@@ -3525,7 +3526,7 @@
     "course": "btech",
     "semester": 5,
     "year": "2018-19",
-    "subject": "DESIGN OF STRUCTURE I RCE 502",
+    "subject": "Design of Structure I",
     "url": "/papers/5/design-of-structure-i-2018-19.pdf"
   },
   {
@@ -3533,7 +3534,7 @@
     "course": "btech",
     "semester": 5,
     "year": "2018-19",
-    "subject": "DIGITAL SIGNAL PROCESSING REC 503",
+    "subject": "Digital Signal Processing",
     "url": "/papers/5/digital-signal-processing-2018-19.pdf"
   },
   {
@@ -3541,7 +3542,7 @@
     "course": "btech",
     "semester": 5,
     "year": "2018-19",
-    "subject": "GEOTECHNICAL ENGINEERING RCE 501",
+    "subject": "Geotechnical Engineering",
     "url": "/papers/5/geotechnical-engineering-2018-19.pdf"
   },
   {
@@ -3549,7 +3550,7 @@
     "course": "btech",
     "semester": 5,
     "year": "2018-19",
-    "subject": "HEAT AND MASS TRANSFER RME 502",
+    "subject": "Heat and Mass Transfer",
     "url": "/papers/5/heat-and-mass-transfer-2018-19.pdf"
   },
   {
@@ -3557,7 +3558,7 @@
     "course": "btech",
     "semester": 5,
     "year": "2018-19",
-    "subject": "I.C. ENGINES & COMPRESSORS RME 051",
+    "subject": "I.C. Engines & Compressors",
     "url": "/papers/5/ic-engines-compressors-2018-19.pdf"
   },
   {
@@ -3565,7 +3566,7 @@
     "course": "btech",
     "semester": 5,
     "year": "2018-19",
-    "subject": "INTEGRATED CIRCUITS REC 501",
+    "subject": "Integrated Circuits",
     "url": "/papers/5/integrated-circuits-2018-19.pdf"
   },
   {
@@ -3573,7 +3574,7 @@
     "course": "btech",
     "semester": 5,
     "year": "2018-19",
-    "subject": "MACHINE DESIGN I RME 501",
+    "subject": "Machine Design I",
     "url": "/papers/5/machine-design-i-2018-19.pdf"
   },
   {
@@ -3581,7 +3582,7 @@
     "course": "btech",
     "semester": 5,
     "year": "2018-19",
-    "subject": "MANAGERIAL ECONOMICS RAS 501",
+    "subject": "Managerial Economics",
     "url": "/papers/5/managerial-economics-2018-19.pdf"
   },
   {
@@ -3589,7 +3590,7 @@
     "course": "btech",
     "semester": 5,
     "year": "2018-19",
-    "subject": "MANUFACTURING SCIENCE & TECHNOLOGY II RME 503",
+    "subject": "Manufacturing Science & Technology II",
     "url": "/papers/5/manufacturing-science-technology-ii-2018-19.pdf"
   },
   {
@@ -3597,7 +3598,7 @@
     "course": "btech",
     "semester": 5,
     "year": "2018-19",
-    "subject": "PRINCIPLES OF COMMUNICATION REC 502",
+    "subject": "Principles of Communication",
     "url": "/papers/5/principles-of-communication-2018-19.pdf"
   },
   {
@@ -3605,7 +3606,7 @@
     "course": "btech",
     "semester": 5,
     "year": "2018-19",
-    "subject": "PRINCIPLES OF PROGRAMMING LANGUAGES RCS 503",
+    "subject": "Principles of Programming Languages",
     "url": "/papers/5/principles-of-programming-languages-2018-19.pdf"
   },
   {
@@ -3613,7 +3614,7 @@
     "course": "btech",
     "semester": 5,
     "year": "2018-19",
-    "subject": "QUANTITY ESTIMATION AND MANAGEMENT RCE 503",
+    "subject": "Quantity Estimation and Management",
     "url": "/papers/5/quantity-estimation-and-management-2018-19.pdf"
   },
   {
@@ -3621,19 +3622,190 @@
     "course": "btech",
     "semester": 5,
     "year": "2018-19",
-    "subject": "WEB TECHNOLOGIES RCS 052",
+    "subject": "Web Technologies",
     "url": "/papers/5/web-technologies-2018-19.pdf"
   }
-
 ,
 
 
 
 
 
-
-
   
+
+
+
+
+
+
+
+
+
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2019-20",
+    "subject": "Computer Architecture and Organization",
+    "url": "/papers/5/computer-architecture-and-organization-2019-20.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2019-20",
+    "subject": "Concrete Technology",
+    "url": "/papers/5/concrete-technology-2019-20.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2019-20",
+    "subject": "Cyber Security",
+    "url": "/papers/5/cyber-security-2019-20.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2019-20",
+    "subject": "Data Base Management System",
+    "url": "/papers/5/data-base-management-system-2019-20.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2019-20",
+    "subject": "Design and Analysis of Algorithm",
+    "url": "/papers/5/design-and-analysis-of-algorithm-2019-20.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2019-20",
+    "subject": "Design of Structure I",
+    "url": "/papers/5/design-of-structure-i-2019-20.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2019-20",
+    "subject": "Digital Signal Processing",
+    "url": "/papers/5/digital-signal-processing-2019-20.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2019-20",
+    "subject": "Geotechnical Engineering",
+    "url": "/papers/5/geotechnical-engineering-2019-20.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2019-20",
+    "subject": "Heat and Mass Transfer",
+    "url": "/papers/5/heat-and-mass-transfer-2019-20.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2019-20",
+    "subject": "I.C. Engines and Compressors",
+    "url": "/papers/5/ic-engines-and-compressors-2019-20.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2019-20",
+    "subject": "Integrated Circuits",
+    "url": "/papers/5/integrated-circuits-2019-20.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2019-20",
+    "subject": "Machine Design I",
+    "url": "/papers/5/machine-design-i-2019-20.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2019-20",
+    "subject": "Managerial Economics",
+    "url": "/papers/5/managerial-economics-2019-20.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2019-20",
+    "subject": "Manufacturing Science Technology II",
+    "url": "/papers/5/manufacturing-science-technology-ii-2019-20.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2019-20",
+    "subject": "Principles of Communication",
+    "url": "/papers/5/principles-of-communication-2019-20.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2019-20",
+    "subject": "Principles of Programming Languages",
+    "url": "/papers/5/principles-of-programming-languages-2019-20.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2019-20",
+    "subject": "Quantity Estimation Management",
+    "url": "/papers/5/quantity-estimation-management-2019-20.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2019-20",
+    "subject": "Sociology",
+    "url": "/papers/5/sociology-2019-20.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2019-20",
+    "subject": "Software Project Management",
+    "url": "/papers/5/software-project-management-2019-20.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2019-20",
+    "subject": "Web Technologies",
+    "url": "/papers/5/web-technologies-2019-20.pdf"
+  }
+,
+
+
+
+
    
 
   
