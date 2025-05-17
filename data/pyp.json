@@ -3808,511 +3808,857 @@
 
    
 
-  
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+   {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2020-21",
+    "subject": "Advanced Welding",
+    "url": "/papers/5/advanced-welding-2020-21.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2020-21",
+    "subject": "Air And Noise Pollution Control",
+    "url": "/papers/5/air-and-noise-pollution-control-2020-21.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2020-21",
+    "subject": "Compiler Design",
+    "url": "/papers/5/compiler-design-2020-21.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2020-21",
+    "subject": "Concrete Technology",
+    "url": "/papers/5/concrete-technology-2020-21.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2020-21",
+    "subject": "Constitution Of India Law And Engineering",
+    "url": "/papers/5/constitution-of-india-law-and-engineering-2020-21.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2020-21",
+    "subject": "Data Analytics",
+    "url": "/papers/5/data-analytics-2020-21.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2020-21",
+    "subject": "Database Management System",
+    "url": "/papers/5/database-management-system-2020-21.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2020-21",
+    "subject": "Design And Analysis Of Algorithm",
+    "url": "/papers/5/design-and-analysis-of-algorithm-2020-21.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2020-21",
+    "subject": "Digital Signal Processing",
+    "url": "/papers/5/digital-signal-processing-2020-21.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2020-21",
+    "subject": "Geotechnical Engineering",
+    "url": "/papers/5/geotechnical-engineering-2020-21.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2020-21",
+    "subject": "Heat Mass Transfer",
+    "url": "/papers/5/heat-mass-transfer-2020-21.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2020-21",
+    "subject": "I C Engines Fuels And Lubrications",
+    "url": "/papers/5/i-c-engines-fuels-and-lubrications-2020-21.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2020-21",
+    "subject": "Industrial Engineering",
+    "url": "/papers/5/industrial-engineering-2020-21.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2020-21",
+    "subject": "Integrated Circuits",
+    "url": "/papers/5/integrated-circuits-2020-21.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2020-21",
+    "subject": "Machine Learning Techniques",
+    "url": "/papers/5/machine-learning-techniques-2020-21.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2020-21",
+    "subject": "Microprocessor And Microcontroller",
+    "url": "/papers/5/microprocessor-and-microcontroller-2020-21.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2020-21",
+    "subject": "Object Oriented System Design",
+    "url": "/papers/5/object-oriented-system-design-2020-21.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2020-21",
+    "subject": "Optical Communication",
+    "url": "/papers/5/optical-communication-2020-21.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2020-21",
+    "subject": "Quantity Estimation And Construction Management",
+    "url": "/papers/5/quantity-estimation-and-construction-management-2020-21.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2020-21",
+    "subject": "Strength Of Material",
+    "url": "/papers/5/strength-of-material-2020-21.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2020-21",
+    "subject": "Structural Analysis",
+    "url": "/papers/5/structural-analysis-2020-21.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2020-21",
+    "subject": "VLSI Technology",
+    "url": "/papers/5/vlsi-technology-2020-21.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2020-21",
+    "subject": "Web Technology",
+    "url": "/papers/5/web-technology-2020-21.pdf"
+  },
 
 
   
    
 
   
+  
   {
     "university": "aktu",
     "course": "btech",
     "semester": 5,
     "year": "2021-22",
-    "subject": "Analog Circuits",
-    "url": "/papers/5/analog-circuits-2021-22.pdf"
+    "subject": "Advance Welding",
+    "url": "/papers/5/advance-welding-2021-22.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 5,
     "year": "2021-22",
-    "subject": "Analog Electronics",
-    "url": "/papers/5/analog-electronics-2021-22.pdf"
+    "subject": "Application Of Soft Computing",
+    "url": "/papers/5/application-of-soft-computing-2021-22.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 5,
     "year": "2021-22",
-    "subject": "Applied Thermodynamics",
-    "url": "/papers/5/applied-thermodynamics-2021-22.pdf"
+    "subject": "Compiler Design",
+    "url": "/papers/5/compiler-design-2021-22.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 5,
     "year": "2021-22",
-    "subject": "Communication Engineering",
-    "url": "/papers/5/communication-engineering-2021-22.pdf"
+    "subject": "Computer Graphics",
+    "url": "/papers/5/computer-graphics-2021-22.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 5,
     "year": "2021-22",
-    "subject": "Computer System and Security",
-    "url": "/papers/5/computer-system-security-2021-22.pdf"
-  },
-
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 5,
-    "year": "2021-22",
-    "subject": "Data Structure and Algorithms",
-    "url": "/papers/5/data-structure-algorithms-2021-22.pdf"
+    "subject": "Constitution Of India Law And Engineering",
+    "url": "/papers/5/constitution-of-india-law-and-engineering-2021-22.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 5,
     "year": "2021-22",
-    "subject": "Data Structures",
-    "url": "/papers/5/data-structures-2021-22.pdf"
+    "subject": "Database Management System",
+    "url": "/papers/5/database-management-system-2021-22.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 5,
     "year": "2021-22",
-    "subject": "Digital Electronics",
-    "url": "/papers/5/digital-electronics-2021-22.pdf"
+    "subject": "Design And Analysis Of Algorithm",
+    "url": "/papers/5/design-and-analysis-of-algorithm-2021-22.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 5,
     "year": "2021-22",
-    "subject": "Electrical Machines and Controls",
-    "url": "/papers/5/electrical-machines-and-controls-2021-22.pdf"
+    "subject": "Digital Signal Processing",
+    "url": "/papers/5/digital-signal-processing-2021-22.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 5,
     "year": "2021-22",
-    "subject": "Electromagnetic Field Theory",
-    "url": "/papers/5/electromagnetic-field-theory-2021-22.pdf"
+    "subject": "Heat And Mass Transfer",
+    "url": "/papers/5/heat-and-mass-transfer-2021-22.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 5,
     "year": "2021-22",
-    "subject": "Electronics Engineering",
-    "url": "/papers/5/electronics-engineering-2021-22.pdf"
+    "subject": "Ic Engine Fuel And Lubrication",
+    "url": "/papers/5/ic-engine-fuel-and-lubrication-2021-22.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 5,
     "year": "2021-22",
-    "subject": "Energy Science and Engineering",
-    "url": "/papers/5/energy-science-and-engineering-2021-22.pdf"
+    "subject": "Industrial Engineering",
+    "url": "/papers/5/industrial-engineering-2021-22.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 5,
     "year": "2021-22",
-    "subject": "Engineering Mechanics",
-    "url": "/papers/5/engineering-mechanics-2021-22.pdf"
+    "subject": "Integrated Circuits",
+    "url": "/papers/5/integrated-circuits-2021-22.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 5,
     "year": "2021-22",
-    "subject": "Electronic Measurement and Instrumentation",
-    "url": "/papers/5/electonic-measurement-and-instrumentation-2021-22.pdf"
-  },
-
-
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 5,
-    "year": "2021-22",
-    "subject": "Environment & Ecology",
-    "url": "/papers/5/environment-ecology-2021-22.pdf"
-  },
- 
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 5,
-    "year": "2021-22",
-    "subject": "Hydraulics and Hydraulic Machines",
-    "url": "/papers/5/hydraulics-and-hydraulic-machines-2021-22.pdf"
-  },
- 
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 5,
-    "year": "2021-22",
-    "subject": "Introduction to Soft Computing",
-    "url": "/papers/5/introduction-to-soft-computing-2021-22.pdf"
-  },
- 
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 5,
-    "year": "2021-22",
-    "subject": "Manufacturing Processes" ,
-    "url": "/papers/5/manufacturing-processes-2021-22.pdf"
+    "subject": "Machine Learning Techniques",
+    "url": "/papers/5/machine-learning-techniques-2021-22.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 5,
     "year": "2021-22",
-    "subject": "Material Science" ,
-    "url": "/papers/5/material-science-2021-22.pdf"
+    "subject": "Microprocessors And Microcontrollers",
+    "url": "/papers/5/microprocessors-and-microcontrollers-2021-22.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 5,
     "year": "2021-22",
-    "subject": "Material Testing and Construction Practices" ,
-    "url": "/papers/5/material-testing-and-construction-practices-2021-22.pdf"
+    "subject": "Object Oriented System Design",
+    "url": "/papers/5/object-oriented-system-design-2021-22.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 5,
     "year": "2021-22",
-    "subject": "Mathematics-III",
-    "url": "/papers/5/mathematics-iii-2021-22.pdf"
+    "subject": "Optical Communication",
+    "url": "/papers/5/optical-communication-2021-22.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 5,
     "year": "2021-22",
-    "subject": "Mathematics-IV",
-    "url": "/papers/5/mathematics-iv-2021-22.pdf"
-  },
- 
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 5,
-    "year": "2021-22",
-    "subject": "Microprocessor",
-    "url": "/papers/5/microprocessor-2021-22.pdf"
+    "subject": "Strength Of Materials",
+    "url": "/papers/5/strength-of-materials-2021-22.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 5,
     "year": "2021-22",
-    "subject": "Network Analysis and Synthesis",
-    "url": "/papers/5/network-analysis-and-synthesis-2021-22.pdf"
+    "subject": "Vlsi Technology",
+    "url": "/papers/5/vlsi-technology-2021-22.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 5,
     "year": "2021-22",
-    "subject": "Operating System",
-    "url": "/papers/5/operating-system-2021-22.pdf"
-  },
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 5,
-    "year": "2021-22",
-    "subject": "Python Programming",
-    "url": "/papers/5/python-programming-2021-22.pdf"
-  },
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 5,
-    "year": "2021-22",
-    "subject": "Sensor and Instrumentation",
-    "url": "/papers/5/sensor-and-instrumentation-2021-22.pdf"
-  },
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 5,
-    "year": "2021-22",
-    "subject": "Signal System",
-    "url": "/papers/5/signal-system-2021-22.pdf"
-  },
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 5,
-    "year": "2021-22",
-    "subject": "Technical Communication",
-    "url": "/papers/5/technical-communication-2021-22.pdf"
-  },
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 5,
-    "year": "2021-22",
-    "subject": "Theory of Automata and Formal Languages",
-    "url": "/papers/5/theory-of-automata-and-formal-languages-2021-22.pdf"
-  },
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 5,
-    "year": "2021-22",
-    "subject": "Universal Human Values & Professional Ethics",
-    "url": "/papers/5/universal-human-values-professional-ethics-2021-22.pdf"
-  },
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 5,
-    "year": "2021-22",
-    "subject": "Web Designing",
-    "url": "/papers/5/web-designing-2021-22.pdf"
-  },
-
-
+    "subject": "Web Technology",
+    "url": "/papers/5/web-technology-2021-22.pdf"
+  }
+,
 
 
   
 
 
   
+  
   {
     "university": "aktu",
     "course": "btech",
     "semester": 5,
     "year": "2022-23",
-    "subject": "Analog Circuits",
-    "url": "/papers/5/analog-circuits-2022-23.pdf"
+    "subject": "Advance Digital Design Using Verilog",
+    "url": "/papers/5/advance-digital-design-using-verilog-2022-23.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 5,
     "year": "2022-23",
-    "subject": "Analog Electronics",
-    "url": "/papers/5/analog-electronics-2022-23.pdf"
+    "subject": "Advance Semiconductor Device",
+    "url": "/papers/5/advance-semiconductor-device-2022-23.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 5,
     "year": "2022-23",
-    "subject": "Applied Thermodynamics",
-    "url": "/papers/5/applied-thermodynamics-2022-23.pdf"
+    "subject": "Advance Welding",
+    "url": "/papers/5/advance-welding-2022-23.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 5,
     "year": "2022-23",
-    "subject": "Communication Engineering",
-    "url": "/papers/5/communication-engineering-2022-23.pdf"
+    "subject": "Air And Noise Pollution Control",
+    "url": "/papers/5/air-and-noise-pollution-control-2022-23.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 5,
     "year": "2022-23",
-    "subject": "Computer System and Security",
-    "url": "/papers/5/computer-system-security-2022-23.pdf"
-  },
-
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 5,
-    "year": "2022-23",
-    "subject": "Data Structure and Algorithms",
-    "url": "/papers/5/data-structure-algorithms-2022-23.pdf"
-  },
- 
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 5,
-    "year": "2022-23",
-    "subject": "Digital Electronics",
-    "url": "/papers/5/digital-electronics-2022-23.pdf"
+    "subject": "Analog And Digital Communication",
+    "url": "/papers/5/analog-and-digital-communication-2022-23.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 5,
     "year": "2022-23",
-    "subject": "Electrical Machines and Controls",
-    "url": "/papers/5/electrical-machines-and-controls-2022-23.pdf"
-  },
-
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 5,
-    "year": "2022-23",
-    "subject": "Electronics Engineering",
-    "url": "/papers/5/electronics-engineering-2022-23.pdf"
+    "subject": "Application Of Soft Computing",
+    "url": "/papers/5/application-of-soft-computing-2022-23.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 5,
     "year": "2022-23",
-    "subject": "Energy Science and Engineering",
-    "url": "/papers/5/energy-science-and-engineering-2022-23.pdf"
+    "subject": "Artificial Intelligence",
+    "url": "/papers/5/artificial-intelligence-2022-23.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 5,
     "year": "2022-23",
-    "subject": "Engineering Mechanics",
-    "url": "/papers/5/engineering-mechanics-2022-23.pdf"
-  },
- 
-
-
- 
- 
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 5,
-    "year": "2022-23",
-    "subject": "Hydraulics and Hydraulic Machines",
-    "url": "/papers/5/hydraulics-and-hydraulic-machines-2022-23.pdf"
-  },
- 
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 5,
-    "year": "2022-23",
-    "subject": "Introduction to Soft Computing",
-    "url": "/papers/5/introduction-to-soft-computing-2022-23.pdf"
-  },
- 
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 5,
-    "year": "2022-23",
-    "subject": "Manufacturing Processes" ,
-    "url": "/papers/5/manufacturing-processes-2022-23.pdf"
+    "subject": "Augmented And Virtual Reality",
+    "url": "/papers/5/augmented-and-virtual-reality-2022-23.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 5,
     "year": "2022-23",
-    "subject": "Material Science" ,
-    "url": "/papers/5/material-science-2022-23.pdf"
+    "subject": "Business Intelligence And Analytic",
+    "url": "/papers/5/business-intelligence-and-analytic-2022-23.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 5,
     "year": "2022-23",
-    "subject": "Material Testing and Construction Practices" ,
-    "url": "/papers/5/material-testing-and-construction-practices-2022-23.pdf"
+    "subject": "Compiler Design",
+    "url": "/papers/5/compiler-design-2022-23.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 5,
     "year": "2022-23",
-    "subject": "Mathematics-III",
-    "url": "/papers/5/mathematics-iii-2022-23.pdf"
+    "subject": "Compiler Design",
+    "url": "/papers/5/compiler-design-2022-23.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 5,
     "year": "2022-23",
-    "subject": "Mathematics-IV",
-    "url": "/papers/5/mathematics-iv-2022-23.pdf"
-  },
- 
-  {
-    "university": "aktu",
-    "course": "btech",
-    "semester": 5,
-    "year": "2022-23",
-    "subject": "Microprocessor",
-    "url": "/papers/5/microprocessor-2022-23.pdf"
+    "subject": "Computer Architecture And Organization",
+    "url": "/papers/5/computer-architecture-and-organization-2022-23.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 5,
     "year": "2022-23",
-    "subject": "Network Analysis and Synthesis",
-    "url": "/papers/5/network-analysis-and-synthesis-2022-23.pdf"
+    "subject": "Computer Graphics",
+    "url": "/papers/5/computer-graphics-2022-23.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 5,
     "year": "2022-23",
-    "subject": "Operating System",
-    "url": "/papers/5/operating-system-2022-23.pdf"
+    "subject": "Computer Integrated Manufacturing",
+    "url": "/papers/5/computer-integrated-manufacturing-2022-23.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 5,
     "year": "2022-23",
-    "subject": "Python Programming",
-    "url": "/papers/5/python-programming-2022-23.pdf"
+    "subject": "Concrete Technology",
+    "url": "/papers/5/concrete-technology-2022-23.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 5,
     "year": "2022-23",
-    "subject": "Sensor and Instrumentation",
-    "url": "/papers/5/sensor-and-instrumentation-2022-23.pdf"
+    "subject": "Constitution Of India Law And Engineering",
+    "url": "/papers/5/constitution-of-india-law-and-engineering-2022-23.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 5,
     "year": "2022-23",
-    "subject": "Signal System",
-    "url": "/papers/5/signal-system-2022-23.pdf"
+    "subject": "Control System",
+    "url": "/papers/5/control-system-2022-23.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 5,
     "year": "2022-23",
-    "subject": "Technical Communication",
-    "url": "/papers/5/technical-communication-2022-23.pdf"
+    "subject": "Data Analytics",
+    "url": "/papers/5/data-analytics-2022-23.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 5,
     "year": "2022-23",
-    "subject": "Theory of Automata and Formal Languages",
-    "url": "/papers/5/theory-of-automata-and-formal-languages-2022-23.pdf"
+    "subject": "Database Management System",
+    "url": "/papers/5/database-management-system-2022-23.pdf"
   },
   {
     "university": "aktu",
     "course": "btech",
     "semester": 5,
     "year": "2022-23",
-    "subject": "Universal Human Values & Professional Ethics",
-    "url": "/papers/5/universal-human-values-professional-ethics-2022-23.pdf"
+    "subject": "Design Analysis Of Algorithm",
+    "url": "/papers/5/design-analysis-of-algorithm-2022-23.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2022-23",
+    "subject": "Digital Signal Processing",
+    "url": "/papers/5/digital-signal-processing-2022-23.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2022-23",
+    "subject": "Digital Signal Processing",
+    "url": "/papers/5/digital-signal-processing-2022-23.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2022-23",
+    "subject": "Electrical Machine Ii",
+    "url": "/papers/5/electrical-machine-ii-2022-23.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2022-23",
+    "subject": "Electronic Instrumentation Measurements",
+    "url": "/papers/5/electronic-instrumentation-measurements-2022-23.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2022-23",
+    "subject": "Electronic Switching",
+    "url": "/papers/5/electronic-switching-2022-23.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2022-23",
+    "subject": "Engineering Geology",
+    "url": "/papers/5/engineering-geology-2022-23.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2022-23",
+    "subject": "Engineering Hydrology",
+    "url": "/papers/5/engineering-hydrology-2022-23.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2022-23",
+    "subject": "Finite Element Methods",
+    "url": "/papers/5/finite-element-methods-2022-23.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2022-23",
+    "subject": "Fuels And Combustion",
+    "url": "/papers/5/fuels-and-combustion-2022-23.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2022-23",
+    "subject": "Geotechnical Engineering",
+    "url": "/papers/5/geotechnical-engineering-2022-23.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2022-23",
+    "subject": "Gis And Advance Remote Sensing",
+    "url": "/papers/5/gis-and-advance-remote-sensing-2022-23.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2022-23",
+    "subject": "Heat And Mass Transfer",
+    "url": "/papers/5/heat-and-mass-transfer-2022-23.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2022-23",
+    "subject": "Human Computer Interface",
+    "url": "/papers/5/human-computer-interface-2022-23.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2022-23",
+    "subject": "I C Engines Fuels Lubrication",
+    "url": "/papers/5/i-c-engines-fuels-lubrication-2022-23.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2022-23",
+    "subject": "Indian Tradition Culture And Society",
+    "url": "/papers/5/indian-tradition-culture-and-society-2022-23.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2022-23",
+    "subject": "Industrial Electronics",
+    "url": "/papers/5/industrial-electronics-2022-23.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2022-23",
+    "subject": "Industrial Engineering",
+    "url": "/papers/5/industrial-engineering-2022-23.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2022-23",
+    "subject": "Integrated Circuits",
+    "url": "/papers/5/integrated-circuits-2022-23.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2022-23",
+    "subject": "Introduction To Data Analytics And Visualization",
+    "url": "/papers/5/introduction-to-data-analytics-and-visualization-2022-23.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2022-23",
+    "subject": "Introduction To Internet Of Things",
+    "url": "/papers/5/introduction-to-internet-of-things-2022-23.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2022-23",
+    "subject": "Machine Learning Techniques",
+    "url": "/papers/5/machine-learning-techniques-2022-23.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2022-23",
+    "subject": "Mechanical Vibrations",
+    "url": "/papers/5/mechanical-vibrations-2022-23.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2022-23",
+    "subject": "Mechatronics Systems",
+    "url": "/papers/5/mechatronics-systems-2022-23.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2022-23",
+    "subject": "Microprocessor Microcontroller",
+    "url": "/papers/5/microprocessor-microcontroller-2022-23.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2022-23",
+    "subject": "Modern Construction Materials",
+    "url": "/papers/5/modern-construction-materials-2022-23.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2022-23",
+    "subject": "Natural Language Processing",
+    "url": "/papers/5/natural-language-processing-2022-23.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2022-23",
+    "subject": "Neural Networks Fuzzy System",
+    "url": "/papers/5/neural-networks-fuzzy-system-2022-23.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2022-23",
+    "subject": "Object Oriented System Design",
+    "url": "/papers/5/object-oriented-system-design-2022-23.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2022-23",
+    "subject": "Open Channel Flow",
+    "url": "/papers/5/open-channel-flow-2022-23.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2022-23",
+    "subject": "Optical Communication",
+    "url": "/papers/5/optical-communication-2022-23.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2022-23",
+    "subject": "Optimization Technique",
+    "url": "/papers/5/optimization-technique-2022-23.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2022-23",
+    "subject": "Power System I",
+    "url": "/papers/5/power-system-i-2022-23.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2022-23",
+    "subject": "Privacy And Security In Iot",
+    "url": "/papers/5/privacy-and-security-in-iot-2022-23.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2022-23",
+    "subject": "Programming Data Structures And Algorithms Using Python",
+    "url": "/papers/5/programming-data-structures-and-algorithms-using-python-2022-23.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2022-23",
+    "subject": "Programming Interfacing With Microcontrollers",
+    "url": "/papers/5/programming-interfacing-with-microcontrollers-2022-23.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2022-23",
+    "subject": "Quantity Estimation And Construction Management",
+    "url": "/papers/5/quantity-estimation-and-construction-management-2022-23.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2022-23",
+    "subject": "Sensor And Instrumentation Technologies For Civil Engineering Applicatiom",
+    "url": "/papers/5/sensor-and-instrumentation-technologies-for-civil-engineering-applicatiom-2022-23.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2022-23",
+    "subject": "Sensors Actuators And Signal Processing",
+    "url": "/papers/5/sensors-actuators-and-signal-processing-2022-23.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2022-23",
+    "subject": "Strength Of Materials",
+    "url": "/papers/5/strength-of-materials-2022-23.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2022-23",
+    "subject": "Structural Analysis",
+    "url": "/papers/5/structural-analysis-2022-23.pdf"
+  },
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2022-23",
+    "subject": "Vlsi Technology",
+    "url": "/papers/5/vlsi-technology-2022-23.pdf"
   },
   {
     "university": "aktu",
@@ -4322,8 +4668,15 @@
     "subject": "Web Designing",
     "url": "/papers/5/web-designing-2022-23.pdf"
   },
-
-
+  {
+    "university": "aktu",
+    "course": "btech",
+    "semester": 5,
+    "year": "2022-23",
+    "subject": "Web Technology",
+    "url": "/papers/5/web-technology-2022-23.pdf"
+  }
+,
 
   
   
