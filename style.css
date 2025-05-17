@@ -33,7 +33,11 @@
 
 html {
   transition: background-color 0.3s, color 0.3s;
+  scroll-behavior: smooth;
+
 }
+
+
 
 /* Basic Reset */
 * {
@@ -418,6 +422,10 @@ p {
   display: inline-flex;
   align-items: center;
   gap: 8px;
+}
+.cta-button a{
+  text-decoration: none;
+  color: white;
 }
 
 .cta-button:hover {
@@ -990,6 +998,14 @@ margin: 0 auto;
   font-size: 1rem;
   cursor: pointer;
   transition: 0.3s;
+}
+.view-all-btn a{
+  text-decoration: none;
+  color: var(--text-color);
+}
+.view-all-btn a:hover{
+  text-decoration: none;
+  color:#0c0c1e ;
 }
 
 .view-all-btn:hover {
