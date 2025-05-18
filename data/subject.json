@@ -1,32 +1,188 @@
 [
   {
-    "name": "Basic Programming with C",
-    "description": "C language basics, loops, arrays, functions, and more.",
+    "name": "Mathematics I",
+    "description": "Calculus, matrices, differentiation, integration, and vector algebra.",
     "semester": 1
   },
   {
-    "name": "History Science and Tech",
-    "description": "Indian scientific heritage, historical innovations.",
+    "name": "Engineering Physics",
+    "description": "Fundamentals of mechanics, waves, optics, and modern physics.",
     "semester": 1
   },
   {
-    "name": "Basic Electrical Engineering",
-    "description": "Electrical fundamentals, circuits, laws and machines.",
+    "name": "Engineering Chemistry",
+    "description": "Atomic structure, bonding, electrochemistry, and polymers.",
     "semester": 1
   },
+  {
+    "name": "Basics of Electrical Engineering",
+    "description": "Electrical fundamentals, Ohm's and Kirchhoff’s laws, and basic machines.",
+    "semester": 1
+  },
+  {
+    "name": "Fundamentals of Mechanical Engineering",
+    "description": "Basic mechanical concepts, thermodynamics, and engineering materials.",
+    "semester": 1
+  },
+  {
+    "name": "Programming for Problem Solving",
+    "description": "C programming fundamentals, loops, arrays, and functions.",
+    "semester": 1
+  },
+  {
+    "name": "Soft Skills",
+    "description": "Communication skills, teamwork, leadership, and professional etiquette.",
+    "semester": 1
+  },
+  {
+    "name": "Basics of Electronics Engineering",
+    "description": "Semiconductors, diodes, transistors, and basic circuits.",
+    "semester": 1
+  },
+  {
+    "name": "Environment and Ecology",
+    "description": "Environmental science, sustainability, and ecological balance.",
+    "semester": 1
+  },
+
+
+
+
+
+
+
+
+  
+  {
+    "name": "Mathematics II",
+    "description": "Differential equations, Laplace transforms, Fourier series, and complex numbers.",
+    "semester": 2
+  },
+  {
+    "name": "Engineering Physics",
+    "description": "Fundamentals of mechanics, waves, optics, and modern physics.",
+    "semester": 2
+  },
+  {
+    "name": "Engineering Chemistry",
+    "description": "Atomic structure, bonding, electrochemistry, and polymers.",
+    "semester": 2
+  },
+  {
+    "name": "Basics of Electrical Engineering",
+    "description": "Electrical fundamentals, Ohm's and Kirchhoff’s laws, and basic machines.",
+    "semester": 2
+  },
+  {
+    "name": "Fundamentals of Mechanical Engineering",
+    "description": "Basic mechanical concepts, thermodynamics, and engineering materials.",
+    "semester": 2
+  },
+  {
+    "name": "Programming for Problem Solving",
+    "description": "C programming fundamentals, loops, arrays, and functions.",
+    "semester": 2
+  },
+  {
+    "name": "Soft Skills",
+    "description": "Communication skills, teamwork, leadership, and professional etiquette.",
+    "semester": 2
+  },
+  {
+    "name": "Basics of Electronics Engineering",
+    "description": "Semiconductors, diodes, transistors, and basic circuits.",
+    "semester": 2
+  },
+  {
+    "name": "Environment and Ecology",
+    "description": "Environmental science, sustainability, and ecological balance.",
+    "semester": 2
+  },
+
+
+
+
+
   {
     "name": "Data Structures",
-    "description": "Stacks, queues, trees, graphs, and time complexities.",
+    "description": "Stacks, queues, linked lists, trees, graphs, and algorithm complexities.",
     "semester": 3
   },
   {
-    "name": "Computer Networks",
-    "description": "Networking fundamentals, OSI, TCP/IP, and protocols.",
-    "semester": 5
+    "name": "Computer Organization and Architecture",
+    "description": "Basic structure of computers, instruction sets, ALU, memory hierarchy, and pipelining.",
+    "semester": 3
   },
   {
-    "name": "Mathematics I",
-    "description": "Mathematics basics ,  Matrices , Differentiation , Inntegration ,  Vectors.",
-    "semester": 1
+    "name": "Cyber Security",
+    "description": "Fundamentals of cybersecurity, threats, cryptography, and network security.",
+    "semester": 3
+  },
+  {
+    "name": "Python Programming",
+    "description": "Python basics, functions, OOPs, file handling, and data manipulation.",
+    "semester": 3
+  },
+  {
+    "name": "Universal Human Values and Professional Ethics",
+    "description": "Human values, ethics, harmony in professional and personal life.",
+    "semester": 3
+  },
+  {
+    "name": "Technical Communication",
+    "description": "Effective communication skills for technical and professional environments.",
+    "semester": 3
+  },
+  {
+    "name": "Theory of Automata and Formal Languages",
+    "description": "Finite automata, regular languages, context-free grammars, and Turing machines.",
+    "semester": 3
+  },
+  {
+    "name": "Mathematics IV",
+    "description": "Numerical methods, partial differential equations, and probability theory.",
+    "semester": 3
+  },
+  {
+    "name": "Data Structures",
+    "description": "Stacks, queues, linked lists, trees, graphs, and algorithm complexities.",
+    "semester": 4
+  },
+  {
+    "name": "Computer Organization and Architecture",
+    "description": "Basic structure of computers, instruction sets, ALU, memory hierarchy, and pipelining.",
+    "semester": 4
+  },
+  {
+    "name": "Cyber Security",
+    "description": "Fundamentals of cybersecurity, threats, cryptography, and network security.",
+    "semester": 4
+  },
+  {
+    "name": "Python Programming",
+    "description": "Python basics, functions, OOPs, file handling, and data manipulation.",
+    "semester": 4
+  },
+  {
+    "name": "Universal Human Values and Professional Ethics",
+    "description": "Human values, ethics, harmony in professional and personal life.",
+    "semester": 4
+  },
+  {
+    "name": "Technical Communication",
+    "description": "Effective communication skills for technical and professional environments.",
+    "semester": 4
+  },
+  {
+    "name": "Theory of Automata and Formal Languages",
+    "description": "Finite automata, regular languages, context-free grammars, and Turing machines.",
+    "semester": 4
+  },
+  {
+    "name": "Mathematics IV",
+    "description": "Numerical methods, partial differential equations, and probability theory.",
+    "semester": 4
   }
+
+
 ]
