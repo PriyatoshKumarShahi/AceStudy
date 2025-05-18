@@ -103,85 +103,102 @@
 
 
 
+  
   {
     "name": "Data Structures",
     "description": "Stacks, queues, linked lists, trees, graphs, and algorithm complexities.",
-    "semester": 3
+    "semester": 3,
+    "url": "/notes/3/data-structures.pdf"
   },
   {
     "name": "Computer Organization and Architecture",
     "description": "Basic structure of computers, instruction sets, ALU, memory hierarchy, and pipelining.",
-    "semester": 3
+    "semester": 3,
+    "url": "/notes/3/computer-organization-and-architecture.pdf"
   },
   {
     "name": "Cyber Security",
     "description": "Fundamentals of cybersecurity, threats, cryptography, and network security.",
-    "semester": 3
+    "semester": 3,
+    "url": "/notes/3/cyber-security.pdf"
   },
   {
     "name": "Python Programming",
     "description": "Python basics, functions, OOPs, file handling, and data manipulation.",
-    "semester": 3
+    "semester": 3,
+    "url": "/notes/3/python-programming.pdf"
   },
   {
     "name": "Universal Human Values and Professional Ethics",
     "description": "Human values, ethics, harmony in professional and personal life.",
-    "semester": 3
+    "semester": 3,
+    "url": "/notes/3/universal-human-values-and-professional-ethics.pdf"
   },
   {
     "name": "Technical Communication",
     "description": "Effective communication skills for technical and professional environments.",
-    "semester": 3
+    "semester": 3,
+    "url": "/notes/3/technical-communication.pdf"
   },
   {
     "name": "Theory of Automata and Formal Languages",
     "description": "Finite automata, regular languages, context-free grammars, and Turing machines.",
-    "semester": 3
+    "semester": 3,
+    "url": "/notes/3/theory-of-automata-and-formal-languages.pdf"
   },
   {
     "name": "Mathematics IV",
     "description": "Numerical methods, partial differential equations, and probability theory.",
-    "semester": 3
+    "semester": 3,
+    "url": "/notes/3/mathematics-iv.pdf"
   },
   {
     "name": "Data Structures",
     "description": "Stacks, queues, linked lists, trees, graphs, and algorithm complexities.",
-    "semester": 4
+    "semester": 4,
+    "url": "/notes/4/data-structures.pdf"
   },
   {
     "name": "Computer Organization and Architecture",
     "description": "Basic structure of computers, instruction sets, ALU, memory hierarchy, and pipelining.",
-    "semester": 4
+    "semester": 4,
+    "url": "/notes/4/computer-organization-and-architecture.pdf"
   },
   {
     "name": "Cyber Security",
     "description": "Fundamentals of cybersecurity, threats, cryptography, and network security.",
-    "semester": 4
+    "semester": 4,
+    "url": "/notes/4/cyber-security.pdf"
   },
   {
     "name": "Python Programming",
     "description": "Python basics, functions, OOPs, file handling, and data manipulation.",
-    "semester": 4
+    "semester": 4,
+    "url": "/notes/4/python-programming.pdf"
   },
   {
     "name": "Universal Human Values and Professional Ethics",
     "description": "Human values, ethics, harmony in professional and personal life.",
-    "semester": 4
+    "semester": 4,
+    "url": "/notes/4/universal-human-values-and-professional-ethics.pdf"
   },
   {
     "name": "Technical Communication",
     "description": "Effective communication skills for technical and professional environments.",
-    "semester": 4
+    "semester": 4,
+    "url": "/notes/4/technical-communication.pdf"
   },
   {
     "name": "Theory of Automata and Formal Languages",
     "description": "Finite automata, regular languages, context-free grammars, and Turing machines.",
-    "semester": 4
+    "semester": 4,
+    "url": "/notes/4/theory-of-automata-and-formal-languages.pdf"
   },
   {
     "name": "Mathematics IV",
     "description": "Numerical methods, partial differential equations, and probability theory.",
-    "semester": 4
+    "semester": 4,
+    "url": "/notes/4/mathematics-iv.pdf"
   }
 
 
