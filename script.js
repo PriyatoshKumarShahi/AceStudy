@@ -135,3 +135,20 @@ document.getElementById("revealSection").addEventListener("mousemove", (e) => {
 window.addEventListener("load", () => {
   updateMask(window.innerWidth / 2, window.innerHeight / 2);
 });
+function handleScrollAnimation() {
+  const elements = document.querySelectorAll('.scroll-animation');
+
+  elements.forEach(el => {
+    const rect = el.getBoundingClientRect();
+    const windowHeight = window.innerHeight;
+
+    if (rect.top < windowHeight - 100) {
+      el.classList.add('visible');
+    } else {
+      el.classList.remove('visible'); // optional: remove when scrolled out of view
+    }
+  });
+}
+
+window.addEventListener('scroll', handleScrollAnimation);
+window.addEventListener('load', handleScrollAnimation);
